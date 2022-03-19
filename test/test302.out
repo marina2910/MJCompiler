@@ -1,0 +1,1465 @@
+                                                                  ) [SingleDesignator]
+                                                                ) [FuncCall]
+                                                              ) [SingleFactor]
+                                                            ) [Term]
+                                                          ) [SingleTerm]
+                                                        ) [Express]
+                                                      ) [CondFactExpr]
+                                                    ) [SingleCondFact]
+                                                  ) [CondTerm]
+                                                ) [SingleCondTerm]
+                                                CondTerm(
+                                                  SingleCondFact(
+                                                    CondFactRelop(
+                                                      Express(
+                                                        SingleTerm(
+                                                          Term(
+                                                            SingleFactor(
+                                                              NumCons(
+                                                                NumberConst(
+                                                                 3
+                                                                ) [NumberConst]
+                                                              ) [NumCons]
+                                                            ) [SingleFactor]
+                                                          ) [Term]
+                                                        ) [SingleTerm]
+                                                      ) [Express]
+                                                      Same(
+                                                      ) [Same]
+                                                      Express(
+                                                        SingleTerm(
+                                                          Term(
+                                                            SingleFactor(
+                                                              NumCons(
+                                                                NumberConst(
+                                                                 4
+                                                                ) [NumberConst]
+                                                              ) [NumCons]
+                                                            ) [SingleFactor]
+                                                          ) [Term]
+                                                        ) [SingleTerm]
+                                                      ) [Express]
+                                                    ) [CondFactRelop]
+                                                  ) [SingleCondFact]
+                                                ) [CondTerm]
+                                              ) [CondTermLst]
+                                            ) [Condition]
+                                          ) [StartIfElse]
+                                          PrintNoNum(
+                                            Express(
+                                              SingleTerm(
+                                                Term(
+                                                  SingleFactor(
+                                                    FuncCallPars(
+                                                      SingleDesignator(
+                                                        DesignatorName(
+                                                         ord
+                                                        ) [DesignatorName]
+                                                      ) [SingleDesignator]
+                                                      ActParams(
+                                                        SingleExpr(
+                                                          Express(
+                                                            SingleTerm(
+                                                              Term(
+                                                                SingleFactor(
+                                                                  CharCons(
+                                                                    CharConst(
+                                                                     A
+                                                                    ) [CharConst]
+                                                                  ) [CharCons]
+                                                                ) [SingleFactor]
+                                                              ) [Term]
+                                                            ) [SingleTerm]
+                                                          ) [Express]
+                                                        ) [SingleExpr]
+                                                      ) [ActParams]
+                                                    ) [FuncCallPars]
+                                                  ) [SingleFactor]
+                                                ) [Term]
+                                              ) [SingleTerm]
+                                            ) [Express]
+                                          ) [PrintNoNum]
+                                          ElsePart(
+                                          ) [ElsePart]
+                                          PrintNoNum(
+                                            Express(
+                                              SingleTerm(
+                                                Term(
+                                                  SingleFactor(
+                                                    FuncCallPars(
+                                                      SingleDesignator(
+                                                        DesignatorName(
+                                                         ord
+                                                        ) [DesignatorName]
+                                                      ) [SingleDesignator]
+                                                      ActParams(
+                                                        SingleExpr(
+                                                          Express(
+                                                            SingleTerm(
+                                                              Term(
+                                                                SingleFactor(
+                                                                  CharCons(
+                                                                    CharConst(
+                                                                     a
+                                                                    ) [CharConst]
+                                                                  ) [CharCons]
+                                                                ) [SingleFactor]
+                                                              ) [Term]
+                                                            ) [SingleTerm]
+                                                          ) [Express]
+                                                        ) [SingleExpr]
+                                                      ) [ActParams]
+                                                    ) [FuncCallPars]
+                                                  ) [SingleFactor]
+                                                ) [Term]
+                                              ) [SingleTerm]
+                                            ) [Express]
+                                          ) [PrintNoNum]
+                                        ) [MatchedIfElse]
+                                      ) [MatchedStmt]
+                                    ) [StatementLst]
+                                    MatchedStmt(
+                                      PrintNoNum(
+                                        Express(
+                                          SingleTerm(
+                                            Term(
+                                              SingleFactor(
+                                                Objct(
+                                                  SingleDesignator(
+                                                    DesignatorName(
+                                                     eol
+                                                    ) [DesignatorName]
+                                                  ) [SingleDesignator]
+                                                ) [Objct]
+                                              ) [SingleFactor]
+                                            ) [Term]
+                                          ) [SingleTerm]
+                                        ) [Express]
+                                      ) [PrintNoNum]
+                                    ) [MatchedStmt]
+                                  ) [StatementLst]
+                                  MatchedStmt(
+                                    DesignStmt(
+                                      Assign(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                        AssignopDerived1(
+                                        ) [AssignopDerived1]
+                                        Express(
+                                          SingleTerm(
+                                            Term(
+                                              SingleFactor(
+                                                NumCons(
+                                                  NumberConst(
+                                                   0
+                                                  ) [NumberConst]
+                                                ) [NumCons]
+                                              ) [SingleFactor]
+                                            ) [Term]
+                                          ) [SingleTerm]
+                                        ) [Express]
+                                      ) [Assign]
+                                    ) [DesignStmt]
+                                  ) [MatchedStmt]
+                                ) [StatementLst]
+                                MatchedStmt(
+                                  DoWhileBlock(
+                                    StartDoWhile(
+                                    ) [StartDoWhile]
+                                    StatementsBlock(
+                                      StatementLst(
+                                        StatementLst(
+                                          StatementLst(
+                                            NoStatement(
+                                            ) [NoStatement]
+                                            UnmatchedStmt(
+                                              UnmatchedIf(
+                                                StartIfElse(
+                                                  Condition(
+                                                    SingleCondTerm(
+                                                      CondTerm(
+                                                        SingleCondFact(
+                                                          CondFactRelop(
+                                                            Express(
+                                                              SingleTerm(
+                                                                Term(
+                                                                  SingleFactor(
+                                                                    Objct(
+                                                                      SingleDesignator(
+                                                                        DesignatorName(
+                                                                         i
+                                                                        ) [DesignatorName]
+                                                                      ) [SingleDesignator]
+                                                                    ) [Objct]
+                                                                  ) [SingleFactor]
+                                                                ) [Term]
+                                                              ) [SingleTerm]
+                                                            ) [Express]
+                                                            Same(
+                                                            ) [Same]
+                                                            Express(
+                                                              SingleTerm(
+                                                                Term(
+                                                                  SingleFactor(
+                                                                    NumCons(
+                                                                      NumberConst(
+                                                                       3
+                                                                      ) [NumberConst]
+                                                                    ) [NumCons]
+                                                                  ) [SingleFactor]
+                                                                ) [Term]
+                                                              ) [SingleTerm]
+                                                            ) [Express]
+                                                          ) [CondFactRelop]
+                                                        ) [SingleCondFact]
+                                                      ) [CondTerm]
+                                                    ) [SingleCondTerm]
+                                                  ) [Condition]
+                                                ) [StartIfElse]
+                                                MatchedStmt(
+                                                  StmtsListMatched(
+                                                    StatementsBlock(
+                                                      StatementLst(
+                                                        StatementLst(
+                                                          NoStatement(
+                                                          ) [NoStatement]
+                                                          MatchedStmt(
+                                                            DesignStmt(
+                                                              Increment(
+                                                                SingleDesignator(
+                                                                  DesignatorName(
+                                                                   i
+                                                                  ) [DesignatorName]
+                                                                ) [SingleDesignator]
+                                                              ) [Increment]
+                                                            ) [DesignStmt]
+                                                          ) [MatchedStmt]
+                                                        ) [StatementLst]
+                                                        MatchedStmt(
+                                                          ContinueStmt(
+                                                          ) [ContinueStmt]
+                                                        ) [MatchedStmt]
+                                                      ) [StatementLst]
+                                                    ) [StatementsBlock]
+                                                  ) [StmtsListMatched]
+                                                ) [MatchedStmt]
+                                              ) [UnmatchedIf]
+                                            ) [UnmatchedStmt]
+                                          ) [StatementLst]
+                                          UnmatchedStmt(
+                                            UnmatchedIf(
+                                              StartIfElse(
+                                                Condition(
+                                                  SingleCondTerm(
+                                                    CondTerm(
+                                                      SingleCondFact(
+                                                        CondFactRelop(
+                                                          Express(
+                                                            SingleTerm(
+                                                              Term(
+                                                                SingleFactor(
+                                                                  Objct(
+                                                                    SingleDesignator(
+                                                                      DesignatorName(
+                                                                       i
+                                                                      ) [DesignatorName]
+                                                                    ) [SingleDesignator]
+                                                                  ) [Objct]
+                                                                ) [SingleFactor]
+                                                              ) [Term]
+                                                            ) [SingleTerm]
+                                                          ) [Express]
+                                                          Same(
+                                                          ) [Same]
+                                                          Express(
+                                                            SingleTerm(
+                                                              Term(
+                                                                SingleFactor(
+                                                                  NumCons(
+                                                                    NumberConst(
+                                                                     4
+                                                                    ) [NumberConst]
+                                                                  ) [NumCons]
+                                                                ) [SingleFactor]
+                                                              ) [Term]
+                                                            ) [SingleTerm]
+                                                          ) [Express]
+                                                        ) [CondFactRelop]
+                                                      ) [SingleCondFact]
+                                                    ) [CondTerm]
+                                                  ) [SingleCondTerm]
+                                                ) [Condition]
+                                              ) [StartIfElse]
+                                              MatchedStmt(
+                                                BreakStmt(
+                                                ) [BreakStmt]
+                                              ) [MatchedStmt]
+                                            ) [UnmatchedIf]
+                                          ) [UnmatchedStmt]
+                                        ) [StatementLst]
+                                        MatchedStmt(
+                                          DesignStmt(
+                                            Assign(
+                                              SingleDesignator(
+                                                DesignatorName(
+                                                 i
+                                                ) [DesignatorName]
+                                              ) [SingleDesignator]
+                                              AssignopDerived1(
+                                              ) [AssignopDerived1]
+                                              Express(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      FuncCallPars(
+                                                        SingleDesignator(
+                                                          DesignatorName(
+                                                           inkrement
+                                                          ) [DesignatorName]
+                                                        ) [SingleDesignator]
+                                                        ActParams(
+                                                          ExprLst(
+                                                            SingleExpr(
+                                                              Express(
+                                                                SingleTerm(
+                                                                  Term(
+                                                                    SingleFactor(
+                                                                      Objct(
+                                                                        SingleDesignator(
+                                                                          DesignatorName(
+                                                                           i
+                                                                          ) [DesignatorName]
+                                                                        ) [SingleDesignator]
+                                                                      ) [Objct]
+                                                                    ) [SingleFactor]
+                                                                  ) [Term]
+                                                                ) [SingleTerm]
+                                                              ) [Express]
+                                                            ) [SingleExpr]
+                                                            Express(
+                                                              SingleTerm(
+                                                                Term(
+                                                                  SingleFactor(
+                                                                    NumCons(
+                                                                      NumberConst(
+                                                                       1
+                                                                      ) [NumberConst]
+                                                                    ) [NumCons]
+                                                                  ) [SingleFactor]
+                                                                ) [Term]
+                                                              ) [SingleTerm]
+                                                            ) [Express]
+                                                          ) [ExprLst]
+                                                        ) [ActParams]
+                                                      ) [FuncCallPars]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Express]
+                                            ) [Assign]
+                                          ) [DesignStmt]
+                                        ) [MatchedStmt]
+                                      ) [StatementLst]
+                                    ) [StatementsBlock]
+                                    StartWhile(
+                                    ) [StartWhile]
+                                    Condition(
+                                      SingleCondTerm(
+                                        CondTerm(
+                                          SingleCondFact(
+                                            CondFactRelop(
+                                              Express(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      Objct(
+                                                        SingleDesignator(
+                                                          DesignatorName(
+                                                           i
+                                                          ) [DesignatorName]
+                                                        ) [SingleDesignator]
+                                                      ) [Objct]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Express]
+                                              LessThan(
+                                              ) [LessThan]
+                                              Express(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      NumCons(
+                                                        NumberConst(
+                                                         10
+                                                        ) [NumberConst]
+                                                      ) [NumCons]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Express]
+                                            ) [CondFactRelop]
+                                          ) [SingleCondFact]
+                                        ) [CondTerm]
+                                      ) [SingleCondTerm]
+                                    ) [Condition]
+                                    EndWhile(
+                                    ) [EndWhile]
+                                  ) [DoWhileBlock]
+                                ) [MatchedStmt]
+                              ) [StatementLst]
+                              MatchedStmt(
+                                MatchedIfElse(
+                                  StartIfElse(
+                                    Condition(
+                                      SingleCondTerm(
+                                        CondTerm(
+                                          CondFactLst(
+                                            SingleCondFact(
+                                              CondFactRelop(
+                                                Express(
+                                                  SingleTerm(
+                                                    Term(
+                                                      SingleFactor(
+                                                        Objct(
+                                                          SingleDesignator(
+                                                            DesignatorName(
+                                                             i
+                                                            ) [DesignatorName]
+                                                          ) [SingleDesignator]
+                                                        ) [Objct]
+                                                      ) [SingleFactor]
+                                                    ) [Term]
+                                                  ) [SingleTerm]
+                                                ) [Express]
+                                                Same(
+                                                ) [Same]
+                                                Express(
+                                                  SingleTerm(
+                                                    Term(
+                                                      SingleFactor(
+                                                        NumCons(
+                                                          NumberConst(
+                                                           3
+                                                          ) [NumberConst]
+                                                        ) [NumCons]
+                                                      ) [SingleFactor]
+                                                    ) [Term]
+                                                  ) [SingleTerm]
+                                                ) [Express]
+                                              ) [CondFactRelop]
+                                            ) [SingleCondFact]
+                                            CondFactExpr(
+                                              Express(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      FuncCall(
+                                                        SingleDesignator(
+                                                          DesignatorName(
+                                                           verify
+                                                          ) [DesignatorName]
+                                                        ) [SingleDesignator]
+                                                      ) [FuncCall]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Express]
+                                            ) [CondFactExpr]
+                                          ) [CondFactLst]
+                                        ) [CondTerm]
+                                      ) [SingleCondTerm]
+                                    ) [Condition]
+                                  ) [StartIfElse]
+                                  PrintNoNum(
+                                    MinExpr(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            NumCons(
+                                              NumberConst(
+                                               4
+                                              ) [NumberConst]
+                                            ) [NumCons]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [MinExpr]
+                                  ) [PrintNoNum]
+                                  ElsePart(
+                                  ) [ElsePart]
+                                  PrintNoNum(
+                                    Express(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            NumCons(
+                                              NumberConst(
+                                               4
+                                              ) [NumberConst]
+                                            ) [NumCons]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Express]
+                                  ) [PrintNoNum]
+                                ) [MatchedIfElse]
+                              ) [MatchedStmt]
+                            ) [StatementLst]
+                            MatchedStmt(
+                              PrintNoNum(
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        Objct(
+                                          SingleDesignator(
+                                            DesignatorName(
+                                             eol
+                                            ) [DesignatorName]
+                                          ) [SingleDesignator]
+                                        ) [Objct]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [PrintNoNum]
+                            ) [MatchedStmt]
+                          ) [StatementLst]
+                          MatchedStmt(
+                            PrintNoNum(
+                              Express(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FuncCallPars(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           inkrement
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                        ActParams(
+                                          ExprLst(
+                                            SingleExpr(
+                                              Express(
+                                                SingleTerm(
+                                                  Term(
+                                                    SingleFactor(
+                                                      NumCons(
+                                                        NumberConst(
+                                                         1
+                                                        ) [NumberConst]
+                                                      ) [NumCons]
+                                                    ) [SingleFactor]
+                                                  ) [Term]
+                                                ) [SingleTerm]
+                                              ) [Express]
+                                            ) [SingleExpr]
+                                            Express(
+                                              SingleTerm(
+                                                Term(
+                                                  SingleFactor(
+                                                    NumCons(
+                                                      NumberConst(
+                                                       2
+                                                      ) [NumberConst]
+                                                    ) [NumCons]
+                                                  ) [SingleFactor]
+                                                ) [Term]
+                                              ) [SingleTerm]
+                                            ) [Express]
+                                          ) [ExprLst]
+                                        ) [ActParams]
+                                      ) [FuncCallPars]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Express]
+                            ) [PrintNoNum]
+                          ) [MatchedStmt]
+                        ) [StatementLst]
+                        MatchedStmt(
+                          DesignStmt(
+                            Assign(
+                              SingleDesignator(
+                                DesignatorName(
+                                 i
+                                ) [DesignatorName]
+                              ) [SingleDesignator]
+                              AssignopDerived1(
+                              ) [AssignopDerived1]
+                              Express(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      NumCons(
+                                        NumberConst(
+                                         0
+                                        ) [NumberConst]
+                                      ) [NumCons]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Express]
+                            ) [Assign]
+                          ) [DesignStmt]
+                        ) [MatchedStmt]
+                      ) [StatementLst]
+                      MatchedStmt(
+                        DoWhileBlock(
+                          StartDoWhile(
+                          ) [StartDoWhile]
+                          StatementsBlock(
+                            StatementLst(
+                              NoStatement(
+                              ) [NoStatement]
+                              MatchedStmt(
+                                DesignStmt(
+                                  Increment(
+                                    SingleDesignator(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                    ) [SingleDesignator]
+                                  ) [Increment]
+                                ) [DesignStmt]
+                              ) [MatchedStmt]
+                            ) [StatementLst]
+                          ) [StatementsBlock]
+                          StartWhile(
+                          ) [StartWhile]
+                          Condition(
+                            SingleCondTerm(
+                              CondTerm(
+                                SingleCondFact(
+                                  CondFactRelop(
+                                    Express(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            Objct(
+                                              SingleDesignator(
+                                                DesignatorName(
+                                                 i
+                                                ) [DesignatorName]
+                                              ) [SingleDesignator]
+                                            ) [Objct]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Express]
+                                    LessThan(
+                                    ) [LessThan]
+                                    Express(
+                                      SingleTerm(
+                                        Term(
+                                          SingleFactor(
+                                            NumCons(
+                                              NumberConst(
+                                               3
+                                              ) [NumberConst]
+                                            ) [NumCons]
+                                          ) [SingleFactor]
+                                        ) [Term]
+                                      ) [SingleTerm]
+                                    ) [Express]
+                                  ) [CondFactRelop]
+                                ) [SingleCondFact]
+                              ) [CondTerm]
+                            ) [SingleCondTerm]
+                          ) [Condition]
+                          EndWhile(
+                          ) [EndWhile]
+                        ) [DoWhileBlock]
+                      ) [MatchedStmt]
+                    ) [StatementLst]
+                    MatchedStmt(
+                      PrintNoNum(
+                        Express(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                Objct(
+                                  SingleDesignator(
+                                    DesignatorName(
+                                     eol
+                                    ) [DesignatorName]
+                                  ) [SingleDesignator]
+                                ) [Objct]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Express]
+                      ) [PrintNoNum]
+                    ) [MatchedStmt]
+                  ) [StatementLst]
+                  MatchedStmt(
+                    DesignStmt(
+                      Assign(
+                        SingleDesignator(
+                          DesignatorName(
+                           i
+                          ) [DesignatorName]
+                        ) [SingleDesignator]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        Express(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                NumCons(
+                                  NumberConst(
+                                   0
+                                  ) [NumberConst]
+                                ) [NumCons]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Express]
+                      ) [Assign]
+                    ) [DesignStmt]
+                  ) [MatchedStmt]
+                ) [StatementLst]
+                MatchedStmt(
+                  DesignStmt(
+                    Assign(
+                      SingleDesignator(
+                        DesignatorName(
+                         niz2
+                        ) [DesignatorName]
+                      ) [SingleDesignator]
+                      AssignopDerived1(
+                      ) [AssignopDerived1]
+                      Express(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              NumCons(
+                                NumberConst(
+                                 0
+                                ) [NumberConst]
+                              ) [NumCons]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Express]
+                    ) [Assign]
+                  ) [DesignStmt]
+                ) [MatchedStmt]
+              ) [StatementLst]
+              MatchedStmt(
+                DoWhileBlock(
+                  StartDoWhile(
+                  ) [StartDoWhile]
+                  StatementsBlock(
+                    StatementLst(
+                      NoStatement(
+                      ) [NoStatement]
+                      MatchedStmt(
+                        DesignStmt(
+                          Increment(
+                            SingleDesignator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                            ) [SingleDesignator]
+                          ) [Increment]
+                        ) [DesignStmt]
+                      ) [MatchedStmt]
+                    ) [StatementLst]
+                  ) [StatementsBlock]
+                  StartWhile(
+                  ) [StartWhile]
+                  Condition(
+                    SingleCondTerm(
+                      CondTerm(
+                        SingleCondFact(
+                          CondFactRelop(
+                            Express(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    Objct(
+                                      SingleDesignator(
+                                        DesignatorName(
+                                         i
+                                        ) [DesignatorName]
+                                      ) [SingleDesignator]
+                                    ) [Objct]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Express]
+                            LessThan(
+                            ) [LessThan]
+                            Express(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    NumCons(
+                                      NumberConst(
+                                       3
+                                      ) [NumberConst]
+                                    ) [NumCons]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Express]
+                          ) [CondFactRelop]
+                        ) [SingleCondFact]
+                      ) [CondTerm]
+                    ) [SingleCondTerm]
+                  ) [Condition]
+                  EndWhile(
+                  ) [EndWhile]
+                ) [DoWhileBlock]
+              ) [MatchedStmt]
+            ) [StatementLst]
+            MatchedStmt(
+              PrintNoNum(
+                Express(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        Objct(
+                          SingleDesignator(
+                            DesignatorName(
+                             niz2
+                            ) [DesignatorName]
+                          ) [SingleDesignator]
+                        ) [Objct]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Express]
+              ) [PrintNoNum]
+            ) [MatchedStmt]
+          ) [StatementLst]
+          MatchedStmt(
+            PrintNoNum(
+              Express(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      Objct(
+                        SingleDesignator(
+                          DesignatorName(
+                           eol
+                          ) [DesignatorName]
+                        ) [SingleDesignator]
+                      ) [Objct]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+              ) [Express]
+            ) [PrintNoNum]
+          ) [MatchedStmt]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  05:43:16,660 - ===================================
+INFO  05:43:16,680 - ProgramName 	visited na liniji 3
+INFO  05:43:16,680 - Type		visited na liniji 5
+INFO  05:43:16,680 - Const 		visited na liniji 5
+INFO  05:43:16,681 - Type		visited na liniji 7
+INFO  05:43:16,681 - VarName		visited na liniji 7
+INFO  05:43:16,681 - Type		visited na liniji 8
+INFO  05:43:16,681 - VarName		visited na liniji 8
+INFO  05:43:16,681 - Type		visited na liniji 10
+INFO  05:43:16,681 - VarName		visited na liniji 10
+INFO  05:43:16,681 - Type		visited na liniji 16
+INFO  05:43:16,682 - MethodBegin 	visited na liniji 16
+INFO  05:43:16,682 - Type		visited na liniji 16
+INFO  05:43:16,682 - FormDecl 		visited na liniji 16
+INFO  05:43:16,682 - Type		visited na liniji 16
+INFO  05:43:16,682 - FormDecl 		visited na liniji 16
+INFO  05:43:16,682 - SingleDesignator 	visited na liniji 18
+INFO  05:43:16,682 - Objct		visited na liniji 18
+INFO  05:43:16,682 - SingleFactor 	visited na liniji 18
+INFO  05:43:16,683 - Term 		visited na liniji 18
+INFO  05:43:16,683 - SingleTerm 	visited na liniji 18
+INFO  05:43:16,683 - SingleDesignator 	visited na liniji 18
+INFO  05:43:16,683 - Objct		visited na liniji 18
+INFO  05:43:16,683 - SingleFactor 	visited na liniji 18
+INFO  05:43:16,683 - Term 		visited na liniji 18
+INFO  05:43:16,683 - TermLst 		visited na liniji 18
+INFO  05:43:16,684 - Express	 	visited na liniji 18
+INFO  05:43:16,684 - RetExpr 		visited na liniji 18
+INFO  05:43:16,684 - MethodDecl 	visited na liniji 16
+INFO  05:43:16,684 - Type		visited na liniji 21
+INFO  05:43:16,684 - MethodBegin 	visited na liniji 21
+INFO  05:43:16,684 - Type		visited na liniji 21
+INFO  05:43:16,684 - FormDecl 		visited na liniji 21
+INFO  05:43:16,684 - Type		visited na liniji 21
+INFO  05:43:16,685 - FormDecl 		visited na liniji 21
+INFO  05:43:16,685 - Type		visited na liniji 22
+INFO  05:43:16,685 - VarName		visited na liniji 22
+INFO  05:43:16,685 - SingleDesignator 	visited na liniji 24
+INFO  05:43:16,685 - Objct		visited na liniji 24
+INFO  05:43:16,685 - SingleFactor 	visited na liniji 24
+INFO  05:43:16,687 - Term 		visited na liniji 24
+INFO  05:43:16,688 - SingleTerm 	visited na liniji 24
+INFO  05:43:16,688 - Express	 	visited na liniji 24
+INFO  05:43:16,688 - Same 		visited
+INFO  05:43:16,688 - SingleDesignator 	visited na liniji 24
+INFO  05:43:16,688 - Objct		visited na liniji 24
+INFO  05:43:16,689 - SingleFactor 	visited na liniji 24
+INFO  05:43:16,689 - Term 		visited na liniji 24
+INFO  05:43:16,689 - SingleTerm 	visited na liniji 24
+INFO  05:43:16,689 - Express	 	visited na liniji 24
+INFO  05:43:16,689 - CondFRelop 	visited na liniji 24
+INFO  05:43:16,690 - SingleCondList	visited na liniji 24
+INFO  05:43:16,690 - CondTerm	  	visited na liniji 24
+INFO  05:43:16,690 - SingleCondTerm 	visited na liniji 24
+INFO  05:43:16,690 - Condition		visited na liniji 24
+INFO  05:43:16,690 - SingleDesignator 	visited na liniji 24
+INFO  05:43:16,690 - NumCons		visited na liniji 24
+INFO  05:43:16,690 - SingleFactor 	visited na liniji 24
+INFO  05:43:16,690 - Term 		visited na liniji 24
+INFO  05:43:16,690 - SingleTerm 	visited na liniji 24
+INFO  05:43:16,691 - Express	 	visited na liniji 24
+INFO  05:43:16,691 - Assign 		visited na liniji 24
+INFO  05:43:16,691 - DesignatorS 	visiter na liniji 24
+INFO  05:43:16,691 - SingleDesignator 	visited na liniji 25
+INFO  05:43:16,691 - Objct		visited na liniji 25
+INFO  05:43:16,691 - SingleFactor 	visited na liniji 25
+INFO  05:43:16,691 - Term 		visited na liniji 25
+INFO  05:43:16,691 - SingleTerm 	visited na liniji 25
+INFO  05:43:16,691 - Express	 	visited na liniji 25
+INFO  05:43:16,691 - Same 		visited
+INFO  05:43:16,691 - NumCons		visited na liniji 25
+INFO  05:43:16,692 - SingleFactor 	visited na liniji 25
+INFO  05:43:16,692 - Term 		visited na liniji 25
+INFO  05:43:16,692 - SingleTerm 	visited na liniji 25
+INFO  05:43:16,692 - Express	 	visited na liniji 25
+INFO  05:43:16,692 - CondFRelop 	visited na liniji 25
+INFO  05:43:16,692 - SingleCondList	visited na liniji 25
+INFO  05:43:16,692 - CondTerm	  	visited na liniji 25
+INFO  05:43:16,692 - SingleCondTerm 	visited na liniji 25
+INFO  05:43:16,692 - Condition		visited na liniji 25
+INFO  05:43:16,692 - SingleDesignator 	visited na liniji 25
+INFO  05:43:16,692 - SingleDesignator 	visited na liniji 25
+INFO  05:43:16,692 - Objct		visited na liniji 25
+INFO  05:43:16,692 - SingleFactor 	visited na liniji 25
+INFO  05:43:16,692 - Term 		visited na liniji 25
+INFO  05:43:16,693 - SingleTerm 	visited na liniji 25
+INFO  05:43:16,693 - Express	 	visited na liniji 25
+INFO  05:43:16,693 - Assign 		visited na liniji 25
+INFO  05:43:16,693 - DesignatorS 	visiter na liniji 25
+INFO  05:43:16,694 - SingleDesignator 	visited na liniji 27
+INFO  05:43:16,694 - SingleDesignator 	visited na liniji 27
+INFO  05:43:16,694 - Objct		visited na liniji 27
+INFO  05:43:16,695 - SingleFactor 	visited na liniji 27
+INFO  05:43:16,695 - Term 		visited na liniji 27
+INFO  05:43:16,695 - SingleTerm 	visited na liniji 27
+INFO  05:43:16,695 - Express	 	visited na liniji 27
+INFO  05:43:16,695 - SingleExpr	 	visited na liniji 27
+INFO  05:43:16,695 - SingleDesignator 	visited na liniji 27
+INFO  05:43:16,696 - Objct		visited na liniji 27
+INFO  05:43:16,696 - SingleFactor 	visited na liniji 27
+INFO  05:43:16,696 - Term 		visited na liniji 27
+INFO  05:43:16,696 - SingleTerm 	visited na liniji 27
+INFO  05:43:16,696 - Express	 	visited na liniji 27
+INFO  05:43:16,696 - ExprLst	 	visited na liniji 27
+INFO  05:43:16,696 - ActParams 		visited na liniji 27
+INFO  05:43:16,697 - FuncParCall 	visited na liniji 27
+INFO  05:43:16,697 - SingleFactor 	visited na liniji 27
+INFO  05:43:16,697 - Term 		visited na liniji 27
+INFO  05:43:16,697 - SingleTerm 	visited na liniji 27
+INFO  05:43:16,698 - Express	 	visited na liniji 27
+INFO  05:43:16,698 - RetExpr 		visited na liniji 27
+INFO  05:43:16,698 - MethodDecl 	visited na liniji 21
+INFO  05:43:16,698 - Type		visited na liniji 30
+INFO  05:43:16,698 - MethodBegin 	visited na liniji 30
+INFO  05:43:16,699 - CharCons	visited na liniji 31
+INFO  05:43:16,699 - SingleFactor 	visited na liniji 31
+INFO  05:43:16,699 - Term 		visited na liniji 31
+INFO  05:43:16,699 - SingleTerm 	visited na liniji 31
+INFO  05:43:16,699 - Express	 	visited na liniji 31
+INFO  05:43:16,699 - PrintNoNum 	visited na liniji 31
+INFO  05:43:16,700 - BoolCons		visited na liniji 32
+INFO  05:43:16,700 - SingleFactor 	visited na liniji 32
+INFO  05:43:16,700 - Term 		visited na liniji 32
+INFO  05:43:16,700 - SingleTerm 	visited na liniji 32
+INFO  05:43:16,700 - Express	 	visited na liniji 32
+INFO  05:43:16,700 - RetExpr 		visited na liniji 32
+INFO  05:43:16,701 - MethodDecl 	visited na liniji 30
+INFO  05:43:16,701 - MethodBegin 	visited na liniji 35
+INFO  05:43:16,701 - NumCons		visited na liniji 37
+INFO  05:43:16,701 - SingleFactor 	visited na liniji 37
+INFO  05:43:16,701 - Term 		visited na liniji 37
+INFO  05:43:16,701 - SingleTerm 	visited na liniji 37
+INFO  05:43:16,701 - Express	 	visited na liniji 37
+INFO  05:43:16,701 - Differ			 visited
+INFO  05:43:16,701 - NumCons		visited na liniji 37
+INFO  05:43:16,701 - SingleFactor 	visited na liniji 37
+INFO  05:43:16,701 - Term 		visited na liniji 37
+INFO  05:43:16,701 - SingleTerm 	visited na liniji 37
+INFO  05:43:16,701 - Express	 	visited na liniji 37
+INFO  05:43:16,702 - CondFRelop 	visited na liniji 37
+INFO  05:43:16,702 - SingleCondList	visited na liniji 37
+INFO  05:43:16,702 - CondTerm	  	visited na liniji 37
+INFO  05:43:16,702 - SingleCondTerm 	visited na liniji 37
+INFO  05:43:16,702 - Condition		visited na liniji 37
+INFO  05:43:16,702 - NumCons		visited na liniji 37
+INFO  05:43:16,702 - SingleFactor 	visited na liniji 37
+INFO  05:43:16,702 - Term 		visited na liniji 37
+INFO  05:43:16,702 - SingleTerm 	visited na liniji 37
+INFO  05:43:16,702 - Express	 	visited na liniji 37
+INFO  05:43:16,702 - PrintNoNum 	visited na liniji 37
+INFO  05:43:16,703 - NumCons		visited na liniji 38
+INFO  05:43:16,703 - SingleFactor 	visited na liniji 38
+INFO  05:43:16,703 - Term 		visited na liniji 38
+INFO  05:43:16,703 - SingleTerm 	visited na liniji 38
+INFO  05:43:16,703 - Express	 	visited na liniji 38
+INFO  05:43:16,703 - PrintNoNum 	visited na liniji 38
+INFO  05:43:16,703 - SingleDesignator 	visited na liniji 40
+INFO  05:43:16,704 - BoolCons		visited na liniji 40
+INFO  05:43:16,704 - SingleFactor 	visited na liniji 40
+INFO  05:43:16,704 - Term 		visited na liniji 40
+INFO  05:43:16,704 - SingleTerm 	visited na liniji 40
+INFO  05:43:16,704 - Express	 	visited na liniji 40
+INFO  05:43:16,704 - Assign 		visited na liniji 40
+INFO  05:43:16,704 - DesignatorS 	visiter na liniji 40
+INFO  05:43:16,704 - SingleDesignator 	visited na liniji 41
+INFO  05:43:16,704 - NumCons		visited na liniji 41
+INFO  05:43:16,704 - SingleFactor 	visited na liniji 41
+INFO  05:43:16,704 - Term 		visited na liniji 41
+INFO  05:43:16,704 - SingleTerm 	visited na liniji 41
+INFO  05:43:16,704 - Express	 	visited na liniji 41
+INFO  05:43:16,704 - Assign 		visited na liniji 41
+INFO  05:43:16,704 - DesignatorS 	visiter na liniji 41
+INFO  05:43:16,704 - StartDoWhile 	visited
+INFO  05:43:16,705 - SingleDesignator 	visited na liniji 43
+INFO  05:43:16,705 - Objct		visited na liniji 43
+INFO  05:43:16,705 - SingleFactor 	visited na liniji 43
+INFO  05:43:16,705 - Term 		visited na liniji 43
+INFO  05:43:16,705 - SingleTerm 	visited na liniji 43
+INFO  05:43:16,705 - Express	 	visited na liniji 43
+INFO  05:43:16,705 - Same 		visited
+INFO  05:43:16,705 - NumCons		visited na liniji 43
+INFO  05:43:16,705 - SingleFactor 	visited na liniji 43
+INFO  05:43:16,705 - Term 		visited na liniji 43
+INFO  05:43:16,705 - SingleTerm 	visited na liniji 43
+INFO  05:43:16,705 - Express	 	visited na liniji 43
+INFO  05:43:16,705 - CondFRelop 	visited na liniji 43
+INFO  05:43:16,705 - SingleCondList	visited na liniji 43
+INFO  05:43:16,705 - CondTerm	  	visited na liniji 43
+INFO  05:43:16,705 - SingleCondTerm 	visited na liniji 43
+INFO  05:43:16,705 - Condition		visited na liniji 43
+INFO  05:43:16,705 - SingleDesignator 	visited na liniji 43
+INFO  05:43:16,705 - BoolCons		visited na liniji 43
+INFO  05:43:16,706 - SingleFactor 	visited na liniji 43
+INFO  05:43:16,706 - Term 		visited na liniji 43
+INFO  05:43:16,706 - SingleTerm 	visited na liniji 43
+INFO  05:43:16,706 - Express	 	visited na liniji 43
+INFO  05:43:16,706 - Assign 		visited na liniji 43
+INFO  05:43:16,706 - DesignatorS 	visiter na liniji 43
+INFO  05:43:16,706 - SingleDesignator 	visited na liniji 44
+INFO  05:43:16,706 - Increment 		visited na liniji 44
+INFO  05:43:16,706 - DesignatorS 	visiter na liniji 44
+INFO  05:43:16,706 - SingleDesignator 	visited na liniji 45
+INFO  05:43:16,706 - Objct		visited na liniji 45
+INFO  05:43:16,706 - SingleFactor 	visited na liniji 45
+INFO  05:43:16,706 - Term 		visited na liniji 45
+INFO  05:43:16,706 - SingleTerm 	visited na liniji 45
+INFO  05:43:16,706 - Express	 	visited na liniji 45
+INFO  05:43:16,707 - LessThan		 visited
+INFO  05:43:16,707 - NumCons		visited na liniji 45
+INFO  05:43:16,707 - SingleFactor 	visited na liniji 45
+INFO  05:43:16,707 - Term 		visited na liniji 45
+INFO  05:43:16,707 - SingleTerm 	visited na liniji 45
+INFO  05:43:16,707 - Express	 	visited na liniji 45
+INFO  05:43:16,707 - CondFRelop 	visited na liniji 45
+INFO  05:43:16,707 - SingleCondList	visited na liniji 45
+INFO  05:43:16,707 - CondTerm	  	visited na liniji 45
+INFO  05:43:16,707 - SingleCondTerm 	visited na liniji 45
+INFO  05:43:16,707 - Condition		visited na liniji 45
+INFO  05:43:16,707 - DoWhileBlock 	visited na liniji 42
+INFO  05:43:16,707 - SingleDesignator 	visited na liniji 47
+INFO  05:43:16,707 - Objct		visited na liniji 47
+INFO  05:43:16,707 - SingleFactor 	visited na liniji 47
+INFO  05:43:16,707 - Term 		visited na liniji 47
+INFO  05:43:16,707 - SingleTerm 	visited na liniji 47
+INFO  05:43:16,708 - Express	 	visited na liniji 47
+INFO  05:43:16,708 - CondFExpr 		visited na liniji 47
+INFO  05:43:16,708 - SingleCondList	visited na liniji 47
+INFO  05:43:16,708 - CondTerm	  	visited na liniji 47
+INFO  05:43:16,708 - SingleCondTerm 	visited na liniji 47
+INFO  05:43:16,708 - Condition		visited na liniji 47
+INFO  05:43:16,708 - SingleDesignator 	visited na liniji 48
+INFO  05:43:16,708 - Objct		visited na liniji 48
+INFO  05:43:16,708 - SingleFactor 	visited na liniji 48
+INFO  05:43:16,708 - Term 		visited na liniji 48
+INFO  05:43:16,708 - SingleTerm 	visited na liniji 48
+INFO  05:43:16,708 - Express	 	visited na liniji 48
+INFO  05:43:16,708 - Same 		visited
+INFO  05:43:16,708 - NumCons		visited na liniji 48
+INFO  05:43:16,708 - SingleFactor 	visited na liniji 48
+INFO  05:43:16,708 - Term 		visited na liniji 48
+INFO  05:43:16,709 - SingleTerm 	visited na liniji 48
+INFO  05:43:16,709 - Express	 	visited na liniji 48
+INFO  05:43:16,709 - CondFRelop 	visited na liniji 48
+INFO  05:43:16,709 - SingleCondList	visited na liniji 48
+INFO  05:43:16,709 - CondTerm	  	visited na liniji 48
+INFO  05:43:16,709 - SingleCondTerm 	visited na liniji 48
+INFO  05:43:16,709 - Condition		visited na liniji 48
+INFO  05:43:16,709 - NumCons		visited na liniji 48
+INFO  05:43:16,709 - SingleFactor 	visited na liniji 48
+INFO  05:43:16,709 - Term 		visited na liniji 48
+INFO  05:43:16,709 - SingleTerm 	visited na liniji 48
+INFO  05:43:16,709 - Express	 	visited na liniji 48
+INFO  05:43:16,709 - PrintNoNum 	visited na liniji 48
+INFO  05:43:16,709 - NumCons		visited na liniji 49
+INFO  05:43:16,709 - SingleFactor 	visited na liniji 49
+INFO  05:43:16,709 - Term 		visited na liniji 49
+INFO  05:43:16,709 - SingleTerm 	visited na liniji 49
+INFO  05:43:16,709 - Express	 	visited na liniji 49
+INFO  05:43:16,709 - PrintNoNum 	visited na liniji 49
+INFO  05:43:16,709 - SingleDesignator 	visited na liniji 51
+INFO  05:43:16,709 - FuncCall 		visited na liniji 51
+INFO  05:43:16,710 - SingleFactor 	visited na liniji 51
+INFO  05:43:16,710 - Term 		visited na liniji 51
+INFO  05:43:16,710 - SingleTerm 	visited na liniji 51
+INFO  05:43:16,710 - Express	 	visited na liniji 51
+INFO  05:43:16,710 - CondFExpr 		visited na liniji 51
+INFO  05:43:16,710 - SingleCondList	visited na liniji 51
+INFO  05:43:16,710 - CondTerm	  	visited na liniji 51
+INFO  05:43:16,710 - SingleCondTerm 	visited na liniji 51
+INFO  05:43:16,710 - NumCons		visited na liniji 51
+INFO  05:43:16,710 - SingleFactor 	visited na liniji 51
+INFO  05:43:16,710 - Term 		visited na liniji 51
+INFO  05:43:16,710 - SingleTerm 	visited na liniji 51
+INFO  05:43:16,710 - Express	 	visited na liniji 51
+INFO  05:43:16,710 - Same 		visited
+INFO  05:43:16,710 - NumCons		visited na liniji 51
+INFO  05:43:16,710 - SingleFactor 	visited na liniji 51
+INFO  05:43:16,710 - Term 		visited na liniji 51
+INFO  05:43:16,710 - SingleTerm 	visited na liniji 51
+INFO  05:43:16,710 - Express	 	visited na liniji 51
+INFO  05:43:16,710 - CondFRelop 	visited na liniji 51
+INFO  05:43:16,710 - SingleCondList	visited na liniji 51
+INFO  05:43:16,710 - CondTerm	  	visited na liniji 51
+INFO  05:43:16,711 - CondTermLst  	visited na liniji 51
+INFO  05:43:16,711 - Condition		visited na liniji 51
+INFO  05:43:16,711 - SingleDesignator 	visited na liniji 51
+INFO  05:43:16,711 - CharCons	visited na liniji 51
+INFO  05:43:16,711 - SingleFactor 	visited na liniji 51
+INFO  05:43:16,711 - Term 		visited na liniji 51
+INFO  05:43:16,711 - SingleTerm 	visited na liniji 51
+INFO  05:43:16,711 - Express	 	visited na liniji 51
+INFO  05:43:16,711 - SingleExpr	 	visited na liniji 51
+INFO  05:43:16,711 - ActParams 		visited na liniji 51
+INFO  05:43:16,711 - FuncParCall 	visited na liniji 51
+INFO  05:43:16,711 - SingleFactor 	visited na liniji 51
+INFO  05:43:16,711 - Term 		visited na liniji 51
+INFO  05:43:16,711 - SingleTerm 	visited na liniji 51
+INFO  05:43:16,711 - Express	 	visited na liniji 51
+INFO  05:43:16,711 - PrintNoNum 	visited na liniji 51
+INFO  05:43:16,711 - SingleDesignator 	visited na liniji 52
+INFO  05:43:16,711 - CharCons	visited na liniji 52
+INFO  05:43:16,711 - SingleFactor 	visited na liniji 52
+INFO  05:43:16,711 - Term 		visited na liniji 52
+INFO  05:43:16,712 - SingleTerm 	visited na liniji 52
+INFO  05:43:16,712 - Express	 	visited na liniji 52
+INFO  05:43:16,712 - SingleExpr	 	visited na liniji 52
+INFO  05:43:16,712 - ActParams 		visited na liniji 52
+INFO  05:43:16,712 - FuncParCall 	visited na liniji 52
+INFO  05:43:16,712 - SingleFactor 	visited na liniji 52
+INFO  05:43:16,712 - Term 		visited na liniji 52
+INFO  05:43:16,712 - SingleTerm 	visited na liniji 52
+INFO  05:43:16,712 - Express	 	visited na liniji 52
+INFO  05:43:16,712 - PrintNoNum 	visited na liniji 52
+INFO  05:43:16,712 - SingleDesignator 	visited na liniji 54
+INFO  05:43:16,712 - Objct		visited na liniji 54
+INFO  05:43:16,712 - SingleFactor 	visited na liniji 54
+INFO  05:43:16,712 - Term 		visited na liniji 54
+INFO  05:43:16,712 - SingleTerm 	visited na liniji 54
+INFO  05:43:16,712 - Express	 	visited na liniji 54
+INFO  05:43:16,712 - PrintNoNum 	visited na liniji 54
+INFO  05:43:16,712 - SingleDesignator 	visited na liniji 55
+INFO  05:43:16,712 - NumCons		visited na liniji 55
+INFO  05:43:16,712 - SingleFactor 	visited na liniji 55
+INFO  05:43:16,712 - Term 		visited na liniji 55
+INFO  05:43:16,712 - SingleTerm 	visited na liniji 55
+INFO  05:43:16,712 - Express	 	visited na liniji 55
+INFO  05:43:16,712 - Assign 		visited na liniji 55
+INFO  05:43:16,712 - DesignatorS 	visiter na liniji 55
+INFO  05:43:16,712 - StartDoWhile 	visited
+INFO  05:43:16,712 - SingleDesignator 	visited na liniji 57
+INFO  05:43:16,712 - Objct		visited na liniji 57
+INFO  05:43:16,712 - SingleFactor 	visited na liniji 57
+INFO  05:43:16,712 - Term 		visited na liniji 57
+INFO  05:43:16,712 - SingleTerm 	visited na liniji 57
+INFO  05:43:16,712 - Express	 	visited na liniji 57
+INFO  05:43:16,712 - Same 		visited
+INFO  05:43:16,712 - NumCons		visited na liniji 57
+INFO  05:43:16,712 - SingleFactor 	visited na liniji 57
+INFO  05:43:16,712 - Term 		visited na liniji 57
+INFO  05:43:16,713 - SingleTerm 	visited na liniji 57
+INFO  05:43:16,713 - Express	 	visited na liniji 57
+INFO  05:43:16,713 - CondFRelop 	visited na liniji 57
+INFO  05:43:16,713 - SingleCondList	visited na liniji 57
+INFO  05:43:16,713 - CondTerm	  	visited na liniji 57
+INFO  05:43:16,713 - SingleCondTerm 	visited na liniji 57
+INFO  05:43:16,713 - Condition		visited na liniji 57
+INFO  05:43:16,713 - SingleDesignator 	visited na liniji 59
+INFO  05:43:16,713 - Increment 		visited na liniji 59
+INFO  05:43:16,713 - DesignatorS 	visiter na liniji 59
+INFO  05:43:16,713 - ContinueStmt 		visited
+INFO  05:43:16,713 - SingleDesignator 	visited na liniji 62
+INFO  05:43:16,713 - Objct		visited na liniji 62
+INFO  05:43:16,713 - SingleFactor 	visited na liniji 62
+INFO  05:43:16,713 - Term 		visited na liniji 62
+INFO  05:43:16,713 - SingleTerm 	visited na liniji 62
+INFO  05:43:16,713 - Express	 	visited na liniji 62
+INFO  05:43:16,714 - Same 		visited
+INFO  05:43:16,714 - NumCons		visited na liniji 62
+INFO  05:43:16,714 - SingleFactor 	visited na liniji 62
+INFO  05:43:16,714 - Term 		visited na liniji 62
+INFO  05:43:16,714 - SingleTerm 	visited na liniji 62
+INFO  05:43:16,714 - Express	 	visited na liniji 62
+INFO  05:43:16,714 - CondFRelop 	visited na liniji 62
+INFO  05:43:16,714 - SingleCondList	visited na liniji 62
+INFO  05:43:16,714 - CondTerm	  	visited na liniji 62
+INFO  05:43:16,714 - SingleCondTerm 	visited na liniji 62
+INFO  05:43:16,714 - Condition		visited na liniji 62
+INFO  05:43:16,714 - BreakStmt 		visited
+INFO  05:43:16,714 - SingleDesignator 	visited na liniji 63
+INFO  05:43:16,714 - SingleDesignator 	visited na liniji 63
+INFO  05:43:16,714 - SingleDesignator 	visited na liniji 63
+INFO  05:43:16,714 - Objct		visited na liniji 63
+INFO  05:43:16,714 - SingleFactor 	visited na liniji 63
+INFO  05:43:16,714 - Term 		visited na liniji 63
+INFO  05:43:16,714 - SingleTerm 	visited na liniji 63
+INFO  05:43:16,714 - Express	 	visited na liniji 63
+INFO  05:43:16,714 - SingleExpr	 	visited na liniji 63
+INFO  05:43:16,714 - NumCons		visited na liniji 63
+INFO  05:43:16,714 - SingleFactor 	visited na liniji 63
+INFO  05:43:16,714 - Term 		visited na liniji 63
+INFO  05:43:16,714 - SingleTerm 	visited na liniji 63
+INFO  05:43:16,714 - Express	 	visited na liniji 63
+INFO  05:43:16,715 - ExprLst	 	visited na liniji 63
+INFO  05:43:16,715 - ActParams 		visited na liniji 63
+INFO  05:43:16,715 - FuncParCall 	visited na liniji 63
+INFO  05:43:16,715 - SingleFactor 	visited na liniji 63
+INFO  05:43:16,715 - Term 		visited na liniji 63
+INFO  05:43:16,715 - SingleTerm 	visited na liniji 63
+INFO  05:43:16,715 - Express	 	visited na liniji 63
+INFO  05:43:16,715 - Assign 		visited na liniji 63
+INFO  05:43:16,715 - DesignatorS 	visiter na liniji 63
+INFO  05:43:16,715 - SingleDesignator 	visited na liniji 64
+INFO  05:43:16,715 - Objct		visited na liniji 64
+INFO  05:43:16,715 - SingleFactor 	visited na liniji 64
+INFO  05:43:16,715 - Term 		visited na liniji 64
+INFO  05:43:16,715 - SingleTerm 	visited na liniji 64
+INFO  05:43:16,715 - Express	 	visited na liniji 64
+INFO  05:43:16,715 - LessThan		 visited
+INFO  05:43:16,715 - NumCons		visited na liniji 64
+INFO  05:43:16,715 - SingleFactor 	visited na liniji 64
+INFO  05:43:16,715 - Term 		visited na liniji 64
+INFO  05:43:16,715 - SingleTerm 	visited na liniji 64
+INFO  05:43:16,715 - Express	 	visited na liniji 64
+INFO  05:43:16,715 - CondFRelop 	visited na liniji 64
+INFO  05:43:16,715 - SingleCondList	visited na liniji 64
+INFO  05:43:16,715 - CondTerm	  	visited na liniji 64
+INFO  05:43:16,715 - SingleCondTerm 	visited na liniji 64
+INFO  05:43:16,716 - Condition		visited na liniji 64
+INFO  05:43:16,716 - DoWhileBlock 	visited na liniji 56
+INFO  05:43:16,716 - SingleDesignator 	visited na liniji 66
+INFO  05:43:16,716 - Objct		visited na liniji 66
+INFO  05:43:16,716 - SingleFactor 	visited na liniji 66
+INFO  05:43:16,716 - Term 		visited na liniji 66
+INFO  05:43:16,716 - SingleTerm 	visited na liniji 66
+INFO  05:43:16,716 - Express	 	visited na liniji 66
+INFO  05:43:16,716 - Same 		visited
+INFO  05:43:16,716 - NumCons		visited na liniji 66
+INFO  05:43:16,716 - SingleFactor 	visited na liniji 66
+INFO  05:43:16,716 - Term 		visited na liniji 66
+INFO  05:43:16,716 - SingleTerm 	visited na liniji 66
+INFO  05:43:16,716 - Express	 	visited na liniji 66
+INFO  05:43:16,716 - CondFRelop 	visited na liniji 66
+INFO  05:43:16,716 - SingleCondList	visited na liniji 66
+INFO  05:43:16,716 - SingleDesignator 	visited na liniji 66
+INFO  05:43:16,716 - FuncCall 		visited na liniji 66
+INFO  05:43:16,716 - SingleFactor 	visited na liniji 66
+INFO  05:43:16,716 - Term 		visited na liniji 66
+INFO  05:43:16,716 - SingleTerm 	visited na liniji 66
+INFO  05:43:16,716 - Express	 	visited na liniji 66
+INFO  05:43:16,716 - CondFExpr 		visited na liniji 66
+INFO  05:43:16,716 - CondFList  	visited na liniji 66
+INFO  05:43:16,716 - CondTerm	  	visited na liniji 66
+INFO  05:43:16,716 - SingleCondTerm 	visited na liniji 66
+INFO  05:43:16,716 - Condition		visited na liniji 66
+INFO  05:43:16,716 - NumCons		visited na liniji 66
+INFO  05:43:16,716 - SingleFactor 	visited na liniji 66
+INFO  05:43:16,716 - Term 		visited na liniji 66
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 66
+INFO  05:43:16,717 - Express	 	visited na liniji 66
+INFO  05:43:16,717 - PrintNoNum 	visited na liniji 66
+INFO  05:43:16,717 - NumCons		visited na liniji 67
+INFO  05:43:16,717 - SingleFactor 	visited na liniji 67
+INFO  05:43:16,717 - Term 		visited na liniji 67
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 67
+INFO  05:43:16,717 - Express	 	visited na liniji 67
+INFO  05:43:16,717 - PrintNoNum 	visited na liniji 67
+INFO  05:43:16,717 - SingleDesignator 	visited na liniji 71
+INFO  05:43:16,717 - Objct		visited na liniji 71
+INFO  05:43:16,717 - SingleFactor 	visited na liniji 71
+INFO  05:43:16,717 - Term 		visited na liniji 71
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 71
+INFO  05:43:16,717 - Express	 	visited na liniji 71
+INFO  05:43:16,717 - PrintNoNum 	visited na liniji 71
+INFO  05:43:16,717 - SingleDesignator 	visited na liniji 72
+INFO  05:43:16,717 - NumCons		visited na liniji 72
+INFO  05:43:16,717 - SingleFactor 	visited na liniji 72
+INFO  05:43:16,717 - Term 		visited na liniji 72
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 72
+INFO  05:43:16,717 - Express	 	visited na liniji 72
+INFO  05:43:16,717 - SingleExpr	 	visited na liniji 72
+INFO  05:43:16,717 - NumCons		visited na liniji 72
+INFO  05:43:16,717 - SingleFactor 	visited na liniji 72
+INFO  05:43:16,717 - Term 		visited na liniji 72
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 72
+INFO  05:43:16,717 - Express	 	visited na liniji 72
+INFO  05:43:16,717 - ExprLst	 	visited na liniji 72
+INFO  05:43:16,717 - ActParams 		visited na liniji 72
+INFO  05:43:16,717 - FuncParCall 	visited na liniji 72
+INFO  05:43:16,717 - SingleFactor 	visited na liniji 72
+INFO  05:43:16,717 - Term 		visited na liniji 72
+INFO  05:43:16,717 - SingleTerm 	visited na liniji 72
+INFO  05:43:16,717 - Express	 	visited na liniji 72
+INFO  05:43:16,717 - PrintNoNum 	visited na liniji 72
+INFO  05:43:16,717 - SingleDesignator 	visited na liniji 75
+INFO  05:43:16,717 - NumCons		visited na liniji 75
+INFO  05:43:16,718 - SingleFactor 	visited na liniji 75
+INFO  05:43:16,718 - Term 		visited na liniji 75
+INFO  05:43:16,718 - SingleTerm 	visited na liniji 75
+INFO  05:43:16,718 - Express	 	visited na liniji 75
+INFO  05:43:16,718 - Assign 		visited na liniji 75
+INFO  05:43:16,718 - DesignatorS 	visiter na liniji 75
+INFO  05:43:16,718 - StartDoWhile 	visited
+INFO  05:43:16,718 - SingleDesignator 	visited na liniji 77
+INFO  05:43:16,718 - Increment 		visited na liniji 77
+INFO  05:43:16,718 - DesignatorS 	visiter na liniji 77
+INFO  05:43:16,718 - SingleDesignator 	visited na liniji 78
+INFO  05:43:16,718 - Objct		visited na liniji 78
+INFO  05:43:16,718 - SingleFactor 	visited na liniji 78
+INFO  05:43:16,718 - Term 		visited na liniji 78
+INFO  05:43:16,718 - SingleTerm 	visited na liniji 78
+INFO  05:43:16,718 - Express	 	visited na liniji 78
+INFO  05:43:16,718 - LessThan		 visited
+INFO  05:43:16,718 - NumCons		visited na liniji 78
+INFO  05:43:16,718 - SingleFactor 	visited na liniji 78
+INFO  05:43:16,718 - Term 		visited na liniji 78
+INFO  05:43:16,718 - SingleTerm 	visited na liniji 78
+INFO  05:43:16,718 - Express	 	visited na liniji 78
+INFO  05:43:16,718 - CondFRelop 	visited na liniji 78
+INFO  05:43:16,718 - SingleCondList	visited na liniji 78
+INFO  05:43:16,718 - CondTerm	  	visited na liniji 78
+INFO  05:43:16,718 - SingleCondTerm 	visited na liniji 78
+INFO  05:43:16,718 - Condition		visited na liniji 78
+INFO  05:43:16,718 - DoWhileBlock 	visited na liniji 76
+INFO  05:43:16,718 - SingleDesignator 	visited na liniji 80
+INFO  05:43:16,718 - Objct		visited na liniji 80
+INFO  05:43:16,718 - SingleFactor 	visited na liniji 80
+INFO  05:43:16,718 - Term 		visited na liniji 80
+INFO  05:43:16,718 - SingleTerm 	visited na liniji 80
+INFO  05:43:16,718 - Express	 	visited na liniji 80
+INFO  05:43:16,718 - PrintNoNum 	visited na liniji 80
+INFO  05:43:16,718 - SingleDesignator 	visited na liniji 82
+INFO  05:43:16,718 - NumCons		visited na liniji 82
+INFO  05:43:16,718 - SingleFactor 	visited na liniji 82
+INFO  05:43:16,718 - Term 		visited na liniji 82
+INFO  05:43:16,718 - SingleTerm 	visited na liniji 82
+INFO  05:43:16,719 - Express	 	visited na liniji 82
+INFO  05:43:16,719 - Assign 		visited na liniji 82
+INFO  05:43:16,719 - DesignatorS 	visiter na liniji 82
+INFO  05:43:16,719 - SingleDesignator 	visited na liniji 83
+INFO  05:43:16,719 - NumCons		visited na liniji 83
+INFO  05:43:16,719 - SingleFactor 	visited na liniji 83
+INFO  05:43:16,719 - Term 		visited na liniji 83
+INFO  05:43:16,719 - SingleTerm 	visited na liniji 83
+INFO  05:43:16,719 - Express	 	visited na liniji 83
+INFO  05:43:16,719 - Assign 		visited na liniji 83
+INFO  05:43:16,719 - DesignatorS 	visiter na liniji 83
+INFO  05:43:16,719 - StartDoWhile 	visited
+INFO  05:43:16,719 - SingleDesignator 	visited na liniji 85
+INFO  05:43:16,719 - Increment 		visited na liniji 85
+INFO  05:43:16,719 - DesignatorS 	visiter na liniji 85
+INFO  05:43:16,719 - SingleDesignator 	visited na liniji 86
+INFO  05:43:16,719 - Objct		visited na liniji 86
+INFO  05:43:16,719 - SingleFactor 	visited na liniji 86
+INFO  05:43:16,719 - Term 		visited na liniji 86
+INFO  05:43:16,719 - SingleTerm 	visited na liniji 86
+INFO  05:43:16,719 - Express	 	visited na liniji 86
+INFO  05:43:16,719 - LessThan		 visited
+INFO  05:43:16,719 - NumCons		visited na liniji 86
+INFO  05:43:16,719 - SingleFactor 	visited na liniji 86
+INFO  05:43:16,719 - Term 		visited na liniji 86
+INFO  05:43:16,719 - SingleTerm 	visited na liniji 86
+INFO  05:43:16,719 - Express	 	visited na liniji 86
+INFO  05:43:16,719 - CondFRelop 	visited na liniji 86
+INFO  05:43:16,720 - SingleCondList	visited na liniji 86
+INFO  05:43:16,720 - CondTerm	  	visited na liniji 86
+INFO  05:43:16,720 - SingleCondTerm 	visited na liniji 86
+INFO  05:43:16,720 - Condition		visited na liniji 86
+INFO  05:43:16,720 - DoWhileBlock 	visited na liniji 84
+INFO  05:43:16,720 - SingleDesignator 	visited na liniji 87
+INFO  05:43:16,720 - Objct		visited na liniji 87
+INFO  05:43:16,720 - SingleFactor 	visited na liniji 87
+INFO  05:43:16,720 - Term 		visited na liniji 87
+INFO  05:43:16,720 - SingleTerm 	visited na liniji 87
+INFO  05:43:16,720 - Express	 	visited na liniji 87
+INFO  05:43:16,720 - PrintNoNum 	visited na liniji 87
+INFO  05:43:16,720 - SingleDesignator 	visited na liniji 88
+INFO  05:43:16,720 - Objct		visited na liniji 88
+INFO  05:43:16,720 - SingleFactor 	visited na liniji 88
+INFO  05:43:16,720 - Term 		visited na liniji 88
+INFO  05:43:16,720 - SingleTerm 	visited na liniji 88
+INFO  05:43:16,720 - Express	 	visited na liniji 88
+INFO  05:43:16,720 - PrintNoNum 	visited na liniji 88
+INFO  05:43:16,720 - MethodDecl 	visited na liniji 35
+INFO  05:43:16,721 - Program 		visited na liniji 3
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Record [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: bool, 0, 1 
+Prog test302: notype, 0, 1 
+   Con jedan: int, 1, 0 
+   Var i: int, 0, 0 
+   Var ibool: bool, 1, 0 
+   Var niz2: int, 2, 0 
+   Meth sum: int, 0, 2 
+      Var z: int, 0, 1 
+      Var d: int, 1, 1 
+
+   Meth inkrement: int, 0, 2 
+      Var a: int, 0, 1 
+      Var inc: int, 1, 1 
+      Var pom: int, 2, 1 
+
+   Meth verify: bool, 0, 0 
+
+   Meth main: notype, 0, 0 
+
+
+
+
+INFO  05:43:16,730 - Parsiranje USPESNO! :)

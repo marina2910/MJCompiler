@@ -1,0 +1,492 @@
+INFO  00:29:28,742 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  00:29:28,873 - #2 program
+INFO  00:29:28,873 - #49 MJprog
+INFO  00:29:28,874 - #3 const
+INFO  00:29:28,877 - #49 bool
+INFO  00:29:28,877 - #49 k
+INFO  00:29:28,879 - #28 =
+INFO  00:29:28,879 - #48 false
+INFO  00:29:28,879 - #5 ;
+INFO  00:29:28,883 - #49 int
+INFO  00:29:28,884 - #49 ok
+INFO  00:29:28,884 - #24 [
+INFO  00:29:28,885 - #25 ]
+INFO  00:29:28,886 - #5 ;
+INFO  00:29:28,887 - #49 char
+INFO  00:29:28,888 - #49 l
+INFO  00:29:28,888 - #5 ;
+INFO  00:29:28,890 - #49 char
+INFO  00:29:28,891 - #49 val
+INFO  00:29:28,891 - #4 ,
+INFO  00:29:28,891 - #49 kok
+INFO  00:29:28,891 - #24 [
+INFO  00:29:28,892 - #25 ]
+INFO  00:29:28,892 - #5 ;
+INFO  00:29:28,893 - #49 int
+INFO  00:29:28,893 - #49 o
+INFO  00:29:28,893 - #5 ;
+INFO  00:29:28,893 - #45 record
+INFO  00:29:28,893 - #49 A
+INFO  00:29:28,893 - #22 {
+INFO  00:29:28,895 - #49 int
+INFO  00:29:28,896 - #49 polje
+INFO  00:29:28,896 - #24 [
+INFO  00:29:28,897 - #25 ]
+INFO  00:29:28,897 - #5 ;
+INFO  00:29:28,897 - #23 }
+INFO  00:29:28,898 - #45 record
+INFO  00:29:28,900 - #49 NekiNoviTip
+INFO  00:29:28,900 - #22 {
+INFO  00:29:28,900 - #49 int
+INFO  00:29:28,900 - #49 recTip
+INFO  00:29:28,900 - #5 ;
+INFO  00:29:28,901 - #49 int
+INFO  00:29:28,901 - #49 klklkk
+INFO  00:29:28,901 - #5 ;
+INFO  00:29:28,901 - #49 A
+INFO  00:29:28,901 - #49 a
+INFO  00:29:28,901 - #5 ;
+INFO  00:29:28,902 - #23 }
+INFO  00:29:28,902 - #49 NekiNoviTip
+INFO  00:29:28,902 - #49 ja
+INFO  00:29:28,902 - #5 ;
+INFO  00:29:28,902 - #22 {
+INFO  00:29:28,903 - #49 int
+INFO  00:29:28,904 - #49 a
+INFO  00:29:28,904 - #26 (
+INFO  00:29:28,906 - #49 bool
+INFO  00:29:28,906 - #49 b
+INFO  00:29:28,906 - #27 )
+INFO  00:29:28,908 - #49 char
+INFO  00:29:28,909 - #49 c
+INFO  00:29:28,909 - #5 ;
+INFO  00:29:28,909 - #22 {
+INFO  00:29:28,910 - #13 return
+INFO  00:29:28,912 - #47 5
+INFO  00:29:28,912 - #5 ;
+INFO  00:29:28,914 - #23 }
+INFO  00:29:28,915 - #14 void
+INFO  00:29:28,918 - #49 main
+INFO  00:29:28,920 - #26 (
+INFO  00:29:28,920 - #27 )
+INFO  00:29:28,922 - #22 {
+INFO  00:29:28,922 - #49 o
+INFO  00:29:28,922 - #28 =
+INFO  00:29:28,924 - #47 1
+INFO  00:29:28,926 - #37 +
+INFO  00:29:28,926 - #47 8
+INFO  00:29:28,929 - #39 *
+INFO  00:29:28,929 - #47 9
+INFO  00:29:28,931 - #5 ;
+INFO  00:29:28,932 - #49 o
+INFO  00:29:28,932 - #44 --
+INFO  00:29:28,932 - #5 ;
+INFO  00:29:28,932 - #23 }
+INFO  00:29:28,933 - #23 }
+INFO  00:29:28,936 - Program(
+  ProgramName(
+   MJprog
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        DeclrLst(
+          DeclrLst(
+            DeclrLst(
+              DeclrLst(
+                DeclrLst(
+                  NoDeclarationLst(
+                  ) [NoDeclarationLst]
+                  ConstDeclL(
+                    ConstDeclLn(
+                      Type(
+                       bool
+                      ) [Type]
+                      ConstDecl(
+                       k
+                        BoolVal(
+                          BoolConst(
+                           false
+                          ) [BoolConst]
+                        ) [BoolVal]
+                      ) [ConstDecl]
+                      NoConstDeclLst(
+                      ) [NoConstDeclLst]
+                    ) [ConstDeclLn]
+                  ) [ConstDeclL]
+                ) [DeclrLst]
+                VarDeclL(
+                  VarDeclLn(
+                    Type(
+                     int
+                    ) [Type]
+                    VarArr(
+                      ArrName(
+                       ok
+                      ) [ArrName]
+                    ) [VarArr]
+                    SingleVarDecl(
+                    ) [SingleVarDecl]
+                  ) [VarDeclLn]
+                ) [VarDeclL]
+              ) [DeclrLst]
+              VarDeclL(
+                VarDeclLn(
+                  Type(
+                   char
+                  ) [Type]
+                  VarNam(
+                    VarName(
+                     l
+                    ) [VarName]
+                  ) [VarNam]
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                ) [VarDeclLn]
+              ) [VarDeclL]
+            ) [DeclrLst]
+            VarDeclL(
+              VarDeclLn(
+                Type(
+                 char
+                ) [Type]
+                VarNam(
+                  VarName(
+                   val
+                  ) [VarName]
+                ) [VarNam]
+                VarDeclLst(
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                  VarArr(
+                    ArrName(
+                     kok
+                    ) [ArrName]
+                  ) [VarArr]
+                ) [VarDeclLst]
+              ) [VarDeclLn]
+            ) [VarDeclL]
+          ) [DeclrLst]
+          VarDeclL(
+            VarDeclLn(
+              Type(
+               int
+              ) [Type]
+              VarNam(
+                VarName(
+                 o
+                ) [VarName]
+              ) [VarNam]
+              SingleVarDecl(
+              ) [SingleVarDecl]
+            ) [VarDeclLn]
+          ) [VarDeclL]
+        ) [DeclrLst]
+        RecordDeclar(
+          RecordDecl(
+            RecordName(
+             A
+            ) [RecordName]
+            RecordBody(
+              MultipleVars(
+                NoVarLine(
+                ) [NoVarLine]
+                VarDeclLn(
+                  Type(
+                   int
+                  ) [Type]
+                  VarArr(
+                    ArrName(
+                     polje
+                    ) [ArrName]
+                  ) [VarArr]
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                ) [VarDeclLn]
+              ) [MultipleVars]
+            ) [RecordBody]
+          ) [RecordDecl]
+        ) [RecordDeclar]
+      ) [DeclrLst]
+      RecordDeclar(
+        RecordDecl(
+          RecordName(
+           NekiNoviTip
+          ) [RecordName]
+          RecordBody(
+            MultipleVars(
+              MultipleVars(
+                MultipleVars(
+                  NoVarLine(
+                  ) [NoVarLine]
+                  VarDeclLn(
+                    Type(
+                     int
+                    ) [Type]
+                    VarNam(
+                      VarName(
+                       recTip
+                      ) [VarName]
+                    ) [VarNam]
+                    SingleVarDecl(
+                    ) [SingleVarDecl]
+                  ) [VarDeclLn]
+                ) [MultipleVars]
+                VarDeclLn(
+                  Type(
+                   int
+                  ) [Type]
+                  VarNam(
+                    VarName(
+                     klklkk
+                    ) [VarName]
+                  ) [VarNam]
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                ) [VarDeclLn]
+              ) [MultipleVars]
+              VarDeclLn(
+                Type(
+                 A
+                ) [Type]
+                VarNam(
+                  VarName(
+                   a
+                  ) [VarName]
+                ) [VarNam]
+                SingleVarDecl(
+                ) [SingleVarDecl]
+              ) [VarDeclLn]
+            ) [MultipleVars]
+          ) [RecordBody]
+        ) [RecordDecl]
+      ) [RecordDeclar]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         NekiNoviTip
+        ) [Type]
+        VarNam(
+          VarName(
+           ja
+          ) [VarName]
+        ) [VarNam]
+        SingleVarDecl(
+        ) [SingleVarDecl]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    MethodDeclLst(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodBegin(
+          TypeRet(
+            Type(
+             int
+            ) [Type]
+          ) [TypeRet]
+         a
+        ) [MethodBegin]
+        MethodFormP(
+          SingleFormPar(
+            FormDecl(
+              Type(
+               bool
+              ) [Type]
+              FormParName(
+               b
+              ) [FormParName]
+            ) [FormDecl]
+          ) [SingleFormPar]
+        ) [MethodFormP]
+        MultipleVars(
+          NoVarLine(
+          ) [NoVarLine]
+          VarDeclLn(
+            Type(
+             char
+            ) [Type]
+            VarNam(
+              VarName(
+               c
+              ) [VarName]
+            ) [VarNam]
+            SingleVarDecl(
+            ) [SingleVarDecl]
+          ) [VarDeclLn]
+        ) [MultipleVars]
+        StatementsBlock(
+          StatementLst(
+            NoStatement(
+            ) [NoStatement]
+            OneStatement(
+              MatchedStmt(
+                RetExpr(
+                  Express(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          NumCons(
+                            NumberConst(
+                             5
+                            ) [NumberConst]
+                          ) [NumCons]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Express]
+                ) [RetExpr]
+              ) [MatchedStmt]
+            ) [OneStatement]
+          ) [StatementLst]
+        ) [StatementsBlock]
+      ) [MethodDecl]
+    ) [MethodDeclLst]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarLine(
+      ) [NoVarLine]
+      StatementsBlock(
+        StatementLst(
+          StatementLst(
+            NoStatement(
+            ) [NoStatement]
+            OneStatement(
+              MatchedStmt(
+                DesignStmt(
+                  Assign(
+                    SingleDesignator(
+                      DesignatorName(
+                       o
+                      ) [DesignatorName]
+                    ) [SingleDesignator]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    Express(
+                      TermLst(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              NumCons(
+                                NumberConst(
+                                 1
+                                ) [NumberConst]
+                              ) [NumCons]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                        Plus(
+                        ) [Plus]
+                        Term(
+                          FactorLst(
+                            SingleFactor(
+                              NumCons(
+                                NumberConst(
+                                 8
+                                ) [NumberConst]
+                              ) [NumCons]
+                            ) [SingleFactor]
+                            Mul(
+                            ) [Mul]
+                            NumCons(
+                              NumberConst(
+                               9
+                              ) [NumberConst]
+                            ) [NumCons]
+                          ) [FactorLst]
+                        ) [Term]
+                      ) [TermLst]
+                    ) [Express]
+                  ) [Assign]
+                ) [DesignStmt]
+              ) [MatchedStmt]
+            ) [OneStatement]
+          ) [StatementLst]
+          OneStatement(
+            MatchedStmt(
+              DesignStmt(
+                Decrement(
+                  SingleDesignator(
+                    DesignatorName(
+                     o
+                    ) [DesignatorName]
+                  ) [SingleDesignator]
+                ) [Decrement]
+              ) [DesignStmt]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  00:29:28,937 - ===================================
+INFO  00:29:28,950 - ProgramName 	visited na liniji 1
+INFO  00:29:28,951 - Type		visited na liniji 4
+INFO  00:29:28,951 - Const 		visited na liniji 4
+INFO  00:29:28,951 - Type		visited na liniji 5
+INFO  00:29:28,951 - VarArr		visited na liniji 5
+INFO  00:29:28,951 - Type		visited na liniji 6
+INFO  00:29:28,951 - VarName		visited na liniji 6
+INFO  00:29:28,951 - Type		visited na liniji 7
+INFO  00:29:28,951 - VarName		visited na liniji 7
+INFO  00:29:28,952 - VarArr		visited na liniji 7
+INFO  00:29:28,952 - Type		visited na liniji 8
+INFO  00:29:28,952 - VarName		visited na liniji 8
+INFO  00:29:28,952 - RecordName 	visited na liniji 9
+INFO  00:29:28,952 - Type		visited na liniji 10
+INFO  00:29:28,953 - VarArr		visited na liniji 10
+INFO  00:29:28,953 - RecordDecl 	visited na liniji 9
+INFO  00:29:28,953 - RecordName 	visited na liniji 13
+INFO  00:29:28,953 - Type		visited na liniji 14
+INFO  00:29:28,953 - VarName		visited na liniji 14
+INFO  00:29:28,953 - Type		visited na liniji 15
+INFO  00:29:28,954 - VarName		visited na liniji 15
+INFO  00:29:28,954 - Type		visited na liniji 16
+INFO  00:29:28,954 - VarName		visited na liniji 16
+INFO  00:29:28,954 - RecordDecl 	visited na liniji 13
+INFO  00:29:28,954 - Type		visited na liniji 18
+INFO  00:29:28,954 - VarName		visited na liniji 18
+INFO  00:29:28,954 - Type		visited na liniji 20
+INFO  00:29:28,955 - MethodBegin 	visited na liniji 20
+INFO  00:29:28,955 - Type		visited na liniji 20
+INFO  00:29:28,955 - FormDecl 		visited na liniji 20
+INFO  00:29:28,955 - Type		visited na liniji 20
+INFO  00:29:28,955 - VarName		visited na liniji 20
+INFO  00:29:28,955 - NumCons		visited na liniji 21
+INFO  00:29:28,956 - SingleFactor 	visited na liniji 21
+INFO  00:29:28,956 - Term 		visited na liniji 21
+INFO  00:29:28,956 - SingleTerm 	visited na liniji 21
+INFO  00:29:28,956 - Express	 	visited na liniji 21
+INFO  00:29:28,956 - RetExpr 		visited na liniji 21
+INFO  00:29:28,956 - MethodDecl 	visited na liniji 20
+INFO  00:29:28,956 - MethodBegin 	visited na liniji 24
+INFO  00:29:28,957 - SingleDesignator 	visited na liniji 25
+INFO  00:29:28,957 - NumCons		visited na liniji 25
+INFO  00:29:28,957 - SingleFactor 	visited na liniji 25
+INFO  00:29:28,957 - Term 		visited na liniji 25
+INFO  00:29:28,957 - SingleTerm 	visited na liniji 25
+INFO  00:29:28,957 - NumCons		visited na liniji 25
+INFO  00:29:28,957 - SingleFactor 	visited na liniji 25
+INFO  00:29:28,958 - NumCons		visited na liniji 25
+INFO  00:29:28,958 - FactorList 	visited na liniji 25
+INFO  00:29:28,958 - Term 		visited na liniji 25
+INFO  00:29:28,958 - TermLst 		visited na liniji 25
+INFO  00:29:28,958 - Express	 	visited na liniji 25
+INFO  00:29:28,958 - Assign 		visited na liniji 25
+INFO  00:29:28,958 - DesignatorS 	visiter na liniji 25
+INFO  00:29:28,959 - SingleDesignator 	visited na liniji 26
+INFO  00:29:28,959 - Decrement 		visited na liniji 26
+INFO  00:29:28,959 - DesignatorS 	visiter na liniji 26
+INFO  00:29:28,959 - MethodDecl 	visited na liniji 24
+ERROR 00:29:28,959 - GRESKA: Main funkcija nije definisana
+INFO  00:29:28,960 - Program 	visited na liniji 1

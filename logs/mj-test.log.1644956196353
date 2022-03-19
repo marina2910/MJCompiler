@@ -1,0 +1,730 @@
+INFO  21:15:54,127 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  21:15:54,276 - #2 program
+INFO  21:15:54,276 - #49 test302
+INFO  21:15:54,277 - #49 int
+INFO  21:15:54,281 - #49 a
+INFO  21:15:54,282 - #4 ,
+INFO  21:15:54,286 - #49 b
+INFO  21:15:54,286 - #4 ,
+INFO  21:15:54,286 - #49 c
+INFO  21:15:54,286 - #4 ,
+INFO  21:15:54,287 - #49 d
+INFO  21:15:54,287 - #5 ;
+INFO  21:15:54,287 - #49 int
+INFO  21:15:54,288 - #49 niz
+INFO  21:15:54,288 - #24 [
+INFO  21:15:54,290 - #25 ]
+INFO  21:15:54,291 - #5 ;
+INFO  21:15:54,291 - #49 int
+INFO  21:15:54,291 - #49 niz2
+INFO  21:15:54,291 - #24 [
+INFO  21:15:54,292 - #25 ]
+INFO  21:15:54,292 - #5 ;
+INFO  21:15:54,292 - #22 {
+INFO  21:15:54,293 - #14 void
+INFO  21:15:54,294 - #49 main
+INFO  21:15:54,295 - #26 (
+INFO  21:15:54,297 - #27 )
+INFO  21:15:54,298 - #22 {
+INFO  21:15:54,299 - #49 niz
+INFO  21:15:54,301 - #28 =
+INFO  21:15:54,302 - #6 new
+INFO  21:15:54,304 - #49 int
+INFO  21:15:54,304 - #24 [
+INFO  21:15:54,304 - #47 3
+INFO  21:15:54,305 - #25 ]
+INFO  21:15:54,306 - #5 ;
+INFO  21:15:54,307 - #49 niz2
+INFO  21:15:54,307 - #28 =
+INFO  21:15:54,307 - #6 new
+INFO  21:15:54,308 - #49 int
+INFO  21:15:54,308 - #24 [
+INFO  21:15:54,308 - #47 5
+INFO  21:15:54,308 - #25 ]
+INFO  21:15:54,308 - #5 ;
+INFO  21:15:54,308 - #49 niz
+INFO  21:15:54,309 - #24 [
+INFO  21:15:54,309 - #47 0
+INFO  21:15:54,309 - #25 ]
+INFO  21:15:54,309 - #28 =
+INFO  21:15:54,310 - #47 0
+INFO  21:15:54,310 - #5 ;
+INFO  21:15:54,310 - #49 niz
+INFO  21:15:54,310 - #24 [
+INFO  21:15:54,311 - #47 1
+INFO  21:15:54,311 - #25 ]
+INFO  21:15:54,311 - #28 =
+INFO  21:15:54,311 - #47 1
+INFO  21:15:54,311 - #5 ;
+INFO  21:15:54,312 - #49 niz
+INFO  21:15:54,312 - #24 [
+INFO  21:15:54,312 - #47 2
+INFO  21:15:54,312 - #25 ]
+INFO  21:15:54,312 - #28 =
+INFO  21:15:54,312 - #47 2
+INFO  21:15:54,313 - #5 ;
+INFO  21:15:54,313 - #49 niz2
+INFO  21:15:54,313 - #24 [
+INFO  21:15:54,313 - #49 niz
+INFO  21:15:54,313 - #24 [
+INFO  21:15:54,314 - #47 0
+INFO  21:15:54,314 - #25 ]
+INFO  21:15:54,314 - #25 ]
+INFO  21:15:54,314 - #28 =
+INFO  21:15:54,314 - #47 9
+INFO  21:15:54,314 - #5 ;
+INFO  21:15:54,315 - #49 a
+INFO  21:15:54,315 - #28 =
+INFO  21:15:54,315 - #47 2
+INFO  21:15:54,315 - #37 +
+INFO  21:15:54,315 - #47 1
+INFO  21:15:54,318 - #39 *
+INFO  21:15:54,318 - #47 8
+INFO  21:15:54,321 - #37 +
+INFO  21:15:54,322 - #47 2
+INFO  21:15:54,322 - #5 ;
+INFO  21:15:54,322 - #17 print
+INFO  21:15:54,322 - #26 (
+INFO  21:15:54,322 - #49 a
+INFO  21:15:54,322 - #27 )
+INFO  21:15:54,323 - #5 ;
+INFO  21:15:54,323 - #17 print
+INFO  21:15:54,323 - #26 (
+INFO  21:15:54,323 - #49 niz2
+INFO  21:15:54,323 - #24 [
+INFO  21:15:54,324 - #47 0
+INFO  21:15:54,324 - #25 ]
+INFO  21:15:54,324 - #27 )
+INFO  21:15:54,324 - #5 ;
+INFO  21:15:54,325 - #23 }
+INFO  21:15:54,325 - #23 }
+INFO  21:15:54,340 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        NoDeclarationLst(
+        ) [NoDeclarationLst]
+        VarDeclL(
+          VarDeclLn(
+            Type(
+             int
+            ) [Type]
+            VarNam(
+              VarName(
+               a
+              ) [VarName]
+            ) [VarNam]
+            VarDeclLst(
+              VarDeclLst(
+                VarDeclLst(
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                  VarNam(
+                    VarName(
+                     b
+                    ) [VarName]
+                  ) [VarNam]
+                ) [VarDeclLst]
+                VarNam(
+                  VarName(
+                   c
+                  ) [VarName]
+                ) [VarNam]
+              ) [VarDeclLst]
+              VarNam(
+                VarName(
+                 d
+                ) [VarName]
+              ) [VarNam]
+            ) [VarDeclLst]
+          ) [VarDeclLn]
+        ) [VarDeclL]
+      ) [DeclrLst]
+      VarDeclL(
+        VarDeclLn(
+          Type(
+           int
+          ) [Type]
+          VarArr(
+            ArrName(
+             niz
+            ) [ArrName]
+          ) [VarArr]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [VarDeclL]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         int
+        ) [Type]
+        VarArr(
+          ArrName(
+           niz2
+          ) [ArrName]
+        ) [VarArr]
+        SingleVarDecl(
+        ) [SingleVarDecl]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarLine(
+      ) [NoVarLine]
+      StatementsBlock(
+        StatementLst(
+          StatementLst(
+            StatementLst(
+              StatementLst(
+                StatementLst(
+                  StatementLst(
+                    StatementLst(
+                      StatementLst(
+                        StatementLst(
+                          NoStatement(
+                          ) [NoStatement]
+                          OneStatement(
+                            MatchedStmt(
+                              DesignStmt(
+                                Assign(
+                                  SingleDesignator(
+                                    DesignatorName(
+                                     niz
+                                    ) [DesignatorName]
+                                  ) [SingleDesignator]
+                                  AssignopDerived1(
+                                  ) [AssignopDerived1]
+                                  Express(
+                                    SingleTerm(
+                                      Term(
+                                        SingleFactor(
+                                          ConstrArr(
+                                            Type(
+                                             int
+                                            ) [Type]
+                                            Express(
+                                              SingleTerm(
+                                                Term(
+                                                  SingleFactor(
+                                                    NumCons(
+                                                      NumberConst(
+                                                       3
+                                                      ) [NumberConst]
+                                                    ) [NumCons]
+                                                  ) [SingleFactor]
+                                                ) [Term]
+                                              ) [SingleTerm]
+                                            ) [Express]
+                                          ) [ConstrArr]
+                                        ) [SingleFactor]
+                                      ) [Term]
+                                    ) [SingleTerm]
+                                  ) [Express]
+                                ) [Assign]
+                              ) [DesignStmt]
+                            ) [MatchedStmt]
+                          ) [OneStatement]
+                        ) [StatementLst]
+                        OneStatement(
+                          MatchedStmt(
+                            DesignStmt(
+                              Assign(
+                                SingleDesignator(
+                                  DesignatorName(
+                                   niz2
+                                  ) [DesignatorName]
+                                ) [SingleDesignator]
+                                AssignopDerived1(
+                                ) [AssignopDerived1]
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        ConstrArr(
+                                          Type(
+                                           int
+                                          ) [Type]
+                                          Express(
+                                            SingleTerm(
+                                              Term(
+                                                SingleFactor(
+                                                  NumCons(
+                                                    NumberConst(
+                                                     5
+                                                    ) [NumberConst]
+                                                  ) [NumCons]
+                                                ) [SingleFactor]
+                                              ) [Term]
+                                            ) [SingleTerm]
+                                          ) [Express]
+                                        ) [ConstrArr]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [Assign]
+                            ) [DesignStmt]
+                          ) [MatchedStmt]
+                        ) [OneStatement]
+                      ) [StatementLst]
+                      OneStatement(
+                        MatchedStmt(
+                          DesignStmt(
+                            Assign(
+                              ArrayDesignator(
+                                DesignatorName(
+                                 niz
+                                ) [DesignatorName]
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        NumCons(
+                                          NumberConst(
+                                           0
+                                          ) [NumberConst]
+                                        ) [NumCons]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [ArrayDesignator]
+                              AssignopDerived1(
+                              ) [AssignopDerived1]
+                              Express(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      NumCons(
+                                        NumberConst(
+                                         0
+                                        ) [NumberConst]
+                                      ) [NumCons]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Express]
+                            ) [Assign]
+                          ) [DesignStmt]
+                        ) [MatchedStmt]
+                      ) [OneStatement]
+                    ) [StatementLst]
+                    OneStatement(
+                      MatchedStmt(
+                        DesignStmt(
+                          Assign(
+                            ArrayDesignator(
+                              DesignatorName(
+                               niz
+                              ) [DesignatorName]
+                              Express(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      NumCons(
+                                        NumberConst(
+                                         1
+                                        ) [NumberConst]
+                                      ) [NumCons]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Express]
+                            ) [ArrayDesignator]
+                            AssignopDerived1(
+                            ) [AssignopDerived1]
+                            Express(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    NumCons(
+                                      NumberConst(
+                                       1
+                                      ) [NumberConst]
+                                    ) [NumCons]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Express]
+                          ) [Assign]
+                        ) [DesignStmt]
+                      ) [MatchedStmt]
+                    ) [OneStatement]
+                  ) [StatementLst]
+                  OneStatement(
+                    MatchedStmt(
+                      DesignStmt(
+                        Assign(
+                          ArrayDesignator(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                            Express(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    NumCons(
+                                      NumberConst(
+                                       2
+                                      ) [NumberConst]
+                                    ) [NumCons]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Express]
+                          ) [ArrayDesignator]
+                          AssignopDerived1(
+                          ) [AssignopDerived1]
+                          Express(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  NumCons(
+                                    NumberConst(
+                                     2
+                                    ) [NumberConst]
+                                  ) [NumCons]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Express]
+                        ) [Assign]
+                      ) [DesignStmt]
+                    ) [MatchedStmt]
+                  ) [OneStatement]
+                ) [StatementLst]
+                OneStatement(
+                  MatchedStmt(
+                    DesignStmt(
+                      Assign(
+                        ArrayDesignator(
+                          DesignatorName(
+                           niz2
+                          ) [DesignatorName]
+                          Express(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  Objct(
+                                    ArrayDesignator(
+                                      DesignatorName(
+                                       niz
+                                      ) [DesignatorName]
+                                      Express(
+                                        SingleTerm(
+                                          Term(
+                                            SingleFactor(
+                                              NumCons(
+                                                NumberConst(
+                                                 0
+                                                ) [NumberConst]
+                                              ) [NumCons]
+                                            ) [SingleFactor]
+                                          ) [Term]
+                                        ) [SingleTerm]
+                                      ) [Express]
+                                    ) [ArrayDesignator]
+                                  ) [Objct]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Express]
+                        ) [ArrayDesignator]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        Express(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                NumCons(
+                                  NumberConst(
+                                   9
+                                  ) [NumberConst]
+                                ) [NumCons]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Express]
+                      ) [Assign]
+                    ) [DesignStmt]
+                  ) [MatchedStmt]
+                ) [OneStatement]
+              ) [StatementLst]
+              OneStatement(
+                MatchedStmt(
+                  DesignStmt(
+                    Assign(
+                      SingleDesignator(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                      ) [SingleDesignator]
+                      AssignopDerived1(
+                      ) [AssignopDerived1]
+                      Express(
+                        TermLst(
+                          TermLst(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  NumCons(
+                                    NumberConst(
+                                     2
+                                    ) [NumberConst]
+                                  ) [NumCons]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                            Plus(
+                            ) [Plus]
+                            Term(
+                              FactorLst(
+                                SingleFactor(
+                                  NumCons(
+                                    NumberConst(
+                                     1
+                                    ) [NumberConst]
+                                  ) [NumCons]
+                                ) [SingleFactor]
+                                Mul(
+                                ) [Mul]
+                                NumCons(
+                                  NumberConst(
+                                   8
+                                  ) [NumberConst]
+                                ) [NumCons]
+                              ) [FactorLst]
+                            ) [Term]
+                          ) [TermLst]
+                          Plus(
+                          ) [Plus]
+                          Term(
+                            SingleFactor(
+                              NumCons(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [NumCons]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [TermLst]
+                      ) [Express]
+                    ) [Assign]
+                  ) [DesignStmt]
+                ) [MatchedStmt]
+              ) [OneStatement]
+            ) [StatementLst]
+            OneStatement(
+              MatchedStmt(
+                PrintNoNum(
+                  Express(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          Objct(
+                            SingleDesignator(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [SingleDesignator]
+                          ) [Objct]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Express]
+                ) [PrintNoNum]
+              ) [MatchedStmt]
+            ) [OneStatement]
+          ) [StatementLst]
+          OneStatement(
+            MatchedStmt(
+              PrintNoNum(
+                Express(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        Objct(
+                          ArrayDesignator(
+                            DesignatorName(
+                             niz2
+                            ) [DesignatorName]
+                            Express(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    NumCons(
+                                      NumberConst(
+                                       0
+                                      ) [NumberConst]
+                                    ) [NumCons]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Express]
+                          ) [ArrayDesignator]
+                        ) [Objct]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Express]
+              ) [PrintNoNum]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  21:15:54,342 - ===================================
+INFO  21:15:54,384 - ProgramName 	visited na liniji 3
+INFO  21:15:54,386 - Type		visited na liniji 5
+INFO  21:15:54,387 - VarName		visited na liniji 5
+INFO  21:15:54,387 - VarName		visited na liniji 5
+INFO  21:15:54,387 - VarName		visited na liniji 5
+INFO  21:15:54,388 - VarName		visited na liniji 5
+INFO  21:15:54,388 - Type		visited na liniji 6
+INFO  21:15:54,388 - VarArr		visited na liniji 6
+INFO  21:15:54,389 - Type		visited na liniji 7
+INFO  21:15:54,389 - VarArr		visited na liniji 7
+INFO  21:15:54,389 - MethodBegin 	visited na liniji 13
+INFO  21:15:54,390 - SingleDesignator 	visited na liniji 15
+INFO  21:15:54,390 - Type		visited na liniji 15
+INFO  21:15:54,390 - NumCons		visited na liniji 15
+INFO  21:15:54,390 - SingleFactor 	visited na liniji 15
+INFO  21:15:54,391 - Term 		visited na liniji 15
+INFO  21:15:54,391 - SingleTerm 	visited na liniji 15
+INFO  21:15:54,391 - Express	 	visited na liniji 15
+INFO  21:15:54,391 - Constr		visited na liniji 15
+INFO  21:15:54,391 - SingleFactor 	visited na liniji 15
+INFO  21:15:54,392 - Term 		visited na liniji 15
+INFO  21:15:54,392 - SingleTerm 	visited na liniji 15
+INFO  21:15:54,392 - Express	 	visited na liniji 15
+INFO  21:15:54,393 - Assign 		visited na liniji 15
+INFO  21:15:54,393 - DesignatorS 	visiter na liniji 15
+INFO  21:15:54,393 - SingleDesignator 	visited na liniji 16
+INFO  21:15:54,393 - Type		visited na liniji 16
+INFO  21:15:54,393 - NumCons		visited na liniji 16
+INFO  21:15:54,393 - SingleFactor 	visited na liniji 16
+INFO  21:15:54,393 - Term 		visited na liniji 16
+INFO  21:15:54,393 - SingleTerm 	visited na liniji 16
+INFO  21:15:54,394 - Express	 	visited na liniji 16
+INFO  21:15:54,394 - Constr		visited na liniji 16
+INFO  21:15:54,394 - SingleFactor 	visited na liniji 16
+INFO  21:15:54,394 - Term 		visited na liniji 16
+INFO  21:15:54,394 - SingleTerm 	visited na liniji 16
+INFO  21:15:54,394 - Express	 	visited na liniji 16
+INFO  21:15:54,394 - Assign 		visited na liniji 16
+INFO  21:15:54,394 - DesignatorS 	visiter na liniji 16
+INFO  21:15:54,395 - NumCons		visited na liniji 18
+INFO  21:15:54,395 - SingleFactor 	visited na liniji 18
+INFO  21:15:54,395 - Term 		visited na liniji 18
+INFO  21:15:54,395 - SingleTerm 	visited na liniji 18
+INFO  21:15:54,395 - Express	 	visited na liniji 18
+INFO  21:15:54,395 - ArrayDesignator 	visited na liniji 18
+INFO  21:15:54,395 - NumCons		visited na liniji 18
+INFO  21:15:54,396 - SingleFactor 	visited na liniji 18
+INFO  21:15:54,396 - Term 		visited na liniji 18
+INFO  21:15:54,396 - SingleTerm 	visited na liniji 18
+INFO  21:15:54,396 - Express	 	visited na liniji 18
+INFO  21:15:54,396 - Assign 		visited na liniji 18
+INFO  21:15:54,396 - DesignatorS 	visiter na liniji 18
+INFO  21:15:54,396 - NumCons		visited na liniji 19
+INFO  21:15:54,396 - SingleFactor 	visited na liniji 19
+INFO  21:15:54,397 - Term 		visited na liniji 19
+INFO  21:15:54,397 - SingleTerm 	visited na liniji 19
+INFO  21:15:54,397 - Express	 	visited na liniji 19
+INFO  21:15:54,397 - ArrayDesignator 	visited na liniji 19
+INFO  21:15:54,397 - NumCons		visited na liniji 19
+INFO  21:15:54,397 - SingleFactor 	visited na liniji 19
+INFO  21:15:54,398 - Term 		visited na liniji 19
+INFO  21:15:54,398 - SingleTerm 	visited na liniji 19
+INFO  21:15:54,398 - Express	 	visited na liniji 19
+INFO  21:15:54,398 - Assign 		visited na liniji 19
+INFO  21:15:54,398 - DesignatorS 	visiter na liniji 19
+INFO  21:15:54,398 - NumCons		visited na liniji 20
+INFO  21:15:54,398 - SingleFactor 	visited na liniji 20
+INFO  21:15:54,398 - Term 		visited na liniji 20
+INFO  21:15:54,398 - SingleTerm 	visited na liniji 20
+INFO  21:15:54,399 - Express	 	visited na liniji 20
+INFO  21:15:54,399 - ArrayDesignator 	visited na liniji 20
+INFO  21:15:54,399 - NumCons		visited na liniji 20
+INFO  21:15:54,399 - SingleFactor 	visited na liniji 20
+INFO  21:15:54,399 - Term 		visited na liniji 20
+INFO  21:15:54,399 - SingleTerm 	visited na liniji 20
+INFO  21:15:54,399 - Express	 	visited na liniji 20
+INFO  21:15:54,399 - Assign 		visited na liniji 20
+INFO  21:15:54,400 - DesignatorS 	visiter na liniji 20
+INFO  21:15:54,400 - NumCons		visited na liniji 21
+INFO  21:15:54,400 - SingleFactor 	visited na liniji 21
+INFO  21:15:54,400 - Term 		visited na liniji 21
+INFO  21:15:54,400 - SingleTerm 	visited na liniji 21
+INFO  21:15:54,400 - Express	 	visited na liniji 21
+INFO  21:15:54,400 - ArrayDesignator 	visited na liniji 21
+INFO  21:15:54,400 - Objct		visited na liniji 21
+INFO  21:15:54,400 - SingleFactor 	visited na liniji 21
+INFO  21:15:54,401 - Term 		visited na liniji 21
+INFO  21:15:54,401 - SingleTerm 	visited na liniji 21
+INFO  21:15:54,401 - Express	 	visited na liniji 21
+INFO  21:15:54,401 - ArrayDesignator 	visited na liniji 21
+INFO  21:15:54,401 - NumCons		visited na liniji 21
+INFO  21:15:54,401 - SingleFactor 	visited na liniji 21
+INFO  21:15:54,401 - Term 		visited na liniji 21
+INFO  21:15:54,401 - SingleTerm 	visited na liniji 21
+INFO  21:15:54,401 - Express	 	visited na liniji 21
+INFO  21:15:54,402 - Assign 		visited na liniji 21
+INFO  21:15:54,402 - DesignatorS 	visiter na liniji 21
+INFO  21:15:54,402 - SingleDesignator 	visited na liniji 22
+INFO  21:15:54,402 - NumCons		visited na liniji 22
+INFO  21:15:54,402 - SingleFactor 	visited na liniji 22
+INFO  21:15:54,402 - Term 		visited na liniji 22
+INFO  21:15:54,402 - SingleTerm 	visited na liniji 22
+INFO  21:15:54,402 - NumCons		visited na liniji 22
+INFO  21:15:54,420 - SingleFactor 	visited na liniji 22
+INFO  21:15:54,420 - NumCons		visited na liniji 22
+INFO  21:15:54,420 - FactorList 	visited na liniji 22
+INFO  21:15:54,420 - Term 		visited na liniji 22
+INFO  21:15:54,421 - TermLst 		visited na liniji 22
+INFO  21:15:54,421 - NumCons		visited na liniji 22
+INFO  21:15:54,421 - SingleFactor 	visited na liniji 22
+INFO  21:15:54,421 - Term 		visited na liniji 22
+INFO  21:15:54,421 - TermLst 		visited na liniji 22
+INFO  21:15:54,421 - Express	 	visited na liniji 22
+INFO  21:15:54,422 - Assign 		visited na liniji 22
+INFO  21:15:54,422 - DesignatorS 	visiter na liniji 22
+INFO  21:15:54,422 - SingleDesignator 	visited na liniji 23
+INFO  21:15:54,423 - Objct		visited na liniji 23
+INFO  21:15:54,423 - SingleFactor 	visited na liniji 23
+INFO  21:15:54,423 - Term 		visited na liniji 23
+INFO  21:15:54,423 - SingleTerm 	visited na liniji 23
+INFO  21:15:54,423 - Express	 	visited na liniji 23
+INFO  21:15:54,423 - PrintNoNum 	visited na liniji 23
+INFO  21:15:54,424 - NumCons		visited na liniji 24
+INFO  21:15:54,424 - SingleFactor 	visited na liniji 24
+INFO  21:15:54,424 - Term 		visited na liniji 24
+INFO  21:15:54,424 - SingleTerm 	visited na liniji 24
+INFO  21:15:54,424 - Express	 	visited na liniji 24
+INFO  21:15:54,428 - ArrayDesignator 	visited na liniji 24
+INFO  21:15:54,428 - Objct		visited na liniji 24
+INFO  21:15:54,428 - SingleFactor 	visited na liniji 24
+INFO  21:15:54,429 - Term 		visited na liniji 24
+INFO  21:15:54,429 - SingleTerm 	visited na liniji 24
+INFO  21:15:54,429 - Express	 	visited na liniji 24
+INFO  21:15:54,429 - PrintNoNum 	visited na liniji 24
+INFO  21:15:54,429 - MethodDecl 	visited na liniji 13
+INFO  21:15:54,429 - Program 		visited na liniji 3
+INFO  21:15:54,452 - Parsiranje USPESNO! :)

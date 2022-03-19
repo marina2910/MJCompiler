@@ -1,0 +1,583 @@
+INFO  02:35:49,313 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  02:35:49,491 - #2 program
+INFO  02:35:49,492 - #49 test301
+INFO  02:35:49,492 - #3 const
+INFO  02:35:49,494 - #49 int
+INFO  02:35:49,495 - #49 nula
+INFO  02:35:49,496 - #28 =
+INFO  02:35:49,496 - #47 0
+INFO  02:35:49,497 - #5 ;
+INFO  02:35:49,500 - #3 const
+INFO  02:35:49,502 - #49 int
+INFO  02:35:49,502 - #49 jedan
+INFO  02:35:49,502 - #28 =
+INFO  02:35:49,502 - #47 1
+INFO  02:35:49,502 - #5 ;
+INFO  02:35:49,503 - #3 const
+INFO  02:35:49,503 - #49 int
+INFO  02:35:49,503 - #49 pet
+INFO  02:35:49,503 - #28 =
+INFO  02:35:49,503 - #47 5
+INFO  02:35:49,503 - #5 ;
+INFO  02:35:49,504 - #45 record
+INFO  02:35:49,504 - #49 Test
+INFO  02:35:49,504 - #22 {
+INFO  02:35:49,506 - #49 int
+INFO  02:35:49,507 - #49 niz
+INFO  02:35:49,507 - #24 [
+INFO  02:35:49,509 - #25 ]
+INFO  02:35:49,509 - #5 ;
+INFO  02:35:49,510 - #49 int
+INFO  02:35:49,510 - #49 a
+INFO  02:35:49,511 - #5 ;
+INFO  02:35:49,512 - #49 int
+INFO  02:35:49,512 - #49 b
+INFO  02:35:49,512 - #5 ;
+INFO  02:35:49,513 - #23 }
+INFO  02:35:49,514 - #49 int
+INFO  02:35:49,516 - #49 nizz
+INFO  02:35:49,516 - #24 [
+INFO  02:35:49,517 - #25 ]
+INFO  02:35:49,517 - #5 ;
+INFO  02:35:49,517 - #49 Test
+INFO  02:35:49,518 - #49 t2
+INFO  02:35:49,518 - #4 ,
+INFO  02:35:49,518 - #49 t1
+INFO  02:35:49,518 - #5 ;
+INFO  02:35:49,518 - #22 {
+INFO  02:35:49,518 - #14 void
+INFO  02:35:49,520 - #49 main
+INFO  02:35:49,522 - #26 (
+INFO  02:35:49,523 - #27 )
+INFO  02:35:49,524 - #22 {
+INFO  02:35:49,525 - #49 t1
+INFO  02:35:49,526 - #28 =
+INFO  02:35:49,527 - #6 new
+INFO  02:35:49,529 - #49 Test
+INFO  02:35:49,529 - #5 ;
+INFO  02:35:49,531 - #49 t1
+INFO  02:35:49,532 - #42 .
+INFO  02:35:49,532 - #49 a
+INFO  02:35:49,533 - #28 =
+INFO  02:35:49,533 - #47 2
+INFO  02:35:49,533 - #5 ;
+INFO  02:35:49,533 - #49 t1
+INFO  02:35:49,533 - #42 .
+INFO  02:35:49,533 - #49 niz
+INFO  02:35:49,533 - #28 =
+INFO  02:35:49,534 - #6 new
+INFO  02:35:49,534 - #49 int
+INFO  02:35:49,534 - #24 [
+INFO  02:35:49,534 - #47 3
+INFO  02:35:49,534 - #25 ]
+INFO  02:35:49,535 - #5 ;
+INFO  02:35:49,535 - #49 t1
+INFO  02:35:49,535 - #42 .
+INFO  02:35:49,536 - #49 niz
+INFO  02:35:49,536 - #24 [
+INFO  02:35:49,537 - #47 0
+INFO  02:35:49,537 - #25 ]
+INFO  02:35:49,538 - #28 =
+INFO  02:35:49,538 - #47 3
+INFO  02:35:49,538 - #5 ;
+INFO  02:35:49,538 - #17 print
+INFO  02:35:49,538 - #26 (
+INFO  02:35:49,538 - #49 t1
+INFO  02:35:49,539 - #42 .
+INFO  02:35:49,539 - #49 niz
+INFO  02:35:49,539 - #24 [
+INFO  02:35:49,539 - #47 0
+INFO  02:35:49,539 - #25 ]
+INFO  02:35:49,539 - #27 )
+INFO  02:35:49,541 - #5 ;
+INFO  02:35:49,541 - #23 }
+INFO  02:35:49,541 - #23 }
+INFO  02:35:49,548 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        DeclrLst(
+          DeclrLst(
+            DeclrLst(
+              NoDeclarationLst(
+              ) [NoDeclarationLst]
+              ConstDeclL(
+                ConstDeclLn(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDecl(
+                   nula
+                    NumberVal(
+                      NumberConst(
+                       0
+                      ) [NumberConst]
+                    ) [NumberVal]
+                  ) [ConstDecl]
+                  NoConstDeclLst(
+                  ) [NoConstDeclLst]
+                ) [ConstDeclLn]
+              ) [ConstDeclL]
+            ) [DeclrLst]
+            ConstDeclL(
+              ConstDeclLn(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 jedan
+                  NumberVal(
+                    NumberConst(
+                     1
+                    ) [NumberConst]
+                  ) [NumberVal]
+                ) [ConstDecl]
+                NoConstDeclLst(
+                ) [NoConstDeclLst]
+              ) [ConstDeclLn]
+            ) [ConstDeclL]
+          ) [DeclrLst]
+          ConstDeclL(
+            ConstDeclLn(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               pet
+                NumberVal(
+                  NumberConst(
+                   5
+                  ) [NumberConst]
+                ) [NumberVal]
+              ) [ConstDecl]
+              NoConstDeclLst(
+              ) [NoConstDeclLst]
+            ) [ConstDeclLn]
+          ) [ConstDeclL]
+        ) [DeclrLst]
+        RecordDeclar(
+          RecordDecl(
+            RecordName(
+             Test
+            ) [RecordName]
+            RecordBody(
+              MultipleVars(
+                MultipleVars(
+                  MultipleVars(
+                    NoVarLine(
+                    ) [NoVarLine]
+                    VarDeclLn(
+                      Type(
+                       int
+                      ) [Type]
+                      VarArr(
+                        ArrName(
+                         niz
+                        ) [ArrName]
+                      ) [VarArr]
+                      SingleVarDecl(
+                      ) [SingleVarDecl]
+                    ) [VarDeclLn]
+                  ) [MultipleVars]
+                  VarDeclLn(
+                    Type(
+                     int
+                    ) [Type]
+                    VarNam(
+                      VarName(
+                       a
+                      ) [VarName]
+                    ) [VarNam]
+                    SingleVarDecl(
+                    ) [SingleVarDecl]
+                  ) [VarDeclLn]
+                ) [MultipleVars]
+                VarDeclLn(
+                  Type(
+                   int
+                  ) [Type]
+                  VarNam(
+                    VarName(
+                     b
+                    ) [VarName]
+                  ) [VarNam]
+                  SingleVarDecl(
+                  ) [SingleVarDecl]
+                ) [VarDeclLn]
+              ) [MultipleVars]
+            ) [RecordBody]
+          ) [RecordDecl]
+        ) [RecordDeclar]
+      ) [DeclrLst]
+      VarDeclL(
+        VarDeclLn(
+          Type(
+           int
+          ) [Type]
+          VarArr(
+            ArrName(
+             nizz
+            ) [ArrName]
+          ) [VarArr]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [VarDeclL]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         Test
+        ) [Type]
+        VarNam(
+          VarName(
+           t2
+          ) [VarName]
+        ) [VarNam]
+        VarDeclLst(
+          SingleVarDecl(
+          ) [SingleVarDecl]
+          VarNam(
+            VarName(
+             t1
+            ) [VarName]
+          ) [VarNam]
+        ) [VarDeclLst]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarLine(
+      ) [NoVarLine]
+      StatementsBlock(
+        StatementLst(
+          StatementLst(
+            StatementLst(
+              StatementLst(
+                StatementLst(
+                  NoStatement(
+                  ) [NoStatement]
+                  OneStatement(
+                    MatchedStmt(
+                      DesignStmt(
+                        Assign(
+                          SingleDesignator(
+                            DesignatorName(
+                             t1
+                            ) [DesignatorName]
+                          ) [SingleDesignator]
+                          AssignopDerived1(
+                          ) [AssignopDerived1]
+                          Express(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  Constr(
+                                    Type(
+                                     Test
+                                    ) [Type]
+                                  ) [Constr]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Express]
+                        ) [Assign]
+                      ) [DesignStmt]
+                    ) [MatchedStmt]
+                  ) [OneStatement]
+                ) [StatementLst]
+                OneStatement(
+                  MatchedStmt(
+                    DesignStmt(
+                      Assign(
+                        DesignList(
+                          FieldAccessDesignator(
+                            DesignatorName(
+                             t1
+                            ) [DesignatorName]
+                            LastField(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [LastField]
+                          ) [FieldAccessDesignator]
+                        ) [DesignList]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        Express(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                NumCons(
+                                  NumberConst(
+                                   2
+                                  ) [NumberConst]
+                                ) [NumCons]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Express]
+                      ) [Assign]
+                    ) [DesignStmt]
+                  ) [MatchedStmt]
+                ) [OneStatement]
+              ) [StatementLst]
+              OneStatement(
+                MatchedStmt(
+                  DesignStmt(
+                    Assign(
+                      DesignList(
+                        FieldAccessDesignator(
+                          DesignatorName(
+                           t1
+                          ) [DesignatorName]
+                          LastField(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                          ) [LastField]
+                        ) [FieldAccessDesignator]
+                      ) [DesignList]
+                      AssignopDerived1(
+                      ) [AssignopDerived1]
+                      Express(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              ConstrArr(
+                                Type(
+                                 int
+                                ) [Type]
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        NumCons(
+                                          NumberConst(
+                                           3
+                                          ) [NumberConst]
+                                        ) [NumCons]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [ConstrArr]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Express]
+                    ) [Assign]
+                  ) [DesignStmt]
+                ) [MatchedStmt]
+              ) [OneStatement]
+            ) [StatementLst]
+            OneStatement(
+              MatchedStmt(
+                DesignStmt(
+                  Assign(
+                    DesignList(
+                      FieldAccessDesignator(
+                        DesignatorName(
+                         t1
+                        ) [DesignatorName]
+                        LastArrayField(
+                          DesignatorNameArr(
+                           niz
+                          ) [DesignatorNameArr]
+                          Express(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  NumCons(
+                                    NumberConst(
+                                     0
+                                    ) [NumberConst]
+                                  ) [NumCons]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Express]
+                        ) [LastArrayField]
+                      ) [FieldAccessDesignator]
+                    ) [DesignList]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    Express(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            NumCons(
+                              NumberConst(
+                               3
+                              ) [NumberConst]
+                            ) [NumCons]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Express]
+                  ) [Assign]
+                ) [DesignStmt]
+              ) [MatchedStmt]
+            ) [OneStatement]
+          ) [StatementLst]
+          OneStatement(
+            MatchedStmt(
+              PrintNoNum(
+                Express(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        Objct(
+                          DesignList(
+                            FieldAccessDesignator(
+                              DesignatorName(
+                               t1
+                              ) [DesignatorName]
+                              LastArrayField(
+                                DesignatorNameArr(
+                                 niz
+                                ) [DesignatorNameArr]
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        NumCons(
+                                          NumberConst(
+                                           0
+                                          ) [NumberConst]
+                                        ) [NumCons]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [LastArrayField]
+                            ) [FieldAccessDesignator]
+                          ) [DesignList]
+                        ) [Objct]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Express]
+              ) [PrintNoNum]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  02:35:49,550 - ===================================
+INFO  02:35:49,565 - ProgramName 	visited na liniji 3
+INFO  02:35:49,565 - Type		visited na liniji 5
+INFO  02:35:49,565 - Const 		visited na liniji 5
+INFO  02:35:49,566 - Type		visited na liniji 6
+INFO  02:35:49,567 - Const 		visited na liniji 6
+INFO  02:35:49,567 - Type		visited na liniji 7
+INFO  02:35:49,567 - Const 		visited na liniji 7
+INFO  02:35:49,567 - RecordName 	visited na liniji 9
+INFO  02:35:49,567 - Type		visited na liniji 10
+INFO  02:35:49,568 - VarArr		visited na liniji 10
+INFO  02:35:49,568 - Type		visited na liniji 11
+INFO  02:35:49,568 - VarName		visited na liniji 11
+INFO  02:35:49,568 - Type		visited na liniji 12
+INFO  02:35:49,568 - VarName		visited na liniji 12
+INFO  02:35:49,569 - RecordDecl 	visited na liniji 9
+INFO  02:35:49,569 - Type		visited na liniji 14
+INFO  02:35:49,569 - VarArr		visited na liniji 14
+INFO  02:35:49,569 - Type		visited na liniji 15
+INFO  02:35:49,569 - VarName		visited na liniji 15
+INFO  02:35:49,569 - VarName		visited na liniji 15
+INFO  02:35:49,569 - MethodBegin 	visited na liniji 18
+INFO  02:35:49,569 - SingleDesignator 	visited na liniji 20
+INFO  02:35:49,569 - Type		visited na liniji 20
+INFO  02:35:49,569 - POLJE STRUKTURE: 0
+INFO  02:35:49,569 - POLJE STRUKTURE: 1
+INFO  02:35:49,569 - POLJE STRUKTURE: 2
+INFO  02:35:49,569 - Constr		visited3 na liniji 20
+INFO  02:35:49,569 - SingleFactor 	visited na liniji 20
+INFO  02:35:49,569 - Term 		visited na liniji 20
+INFO  02:35:49,569 - SingleTerm 	visited na liniji 20
+INFO  02:35:49,569 - Express	 	visited na liniji 20
+INFO  02:35:49,570 - Assign 		visited na liniji 20
+INFO  02:35:49,570 - DesignatorS 	visiter na liniji 20
+INFO  02:35:49,570 - ADRESA POLJA: a na liniji 21
+INFO  02:35:49,570 - LastField		visited na liniji 21
+INFO  02:35:49,570 - ADRESA POLJA: t1 na liniji 21
+INFO  02:35:49,570 - FieldAcceDes 	visited na liniji 21
+INFO  02:35:49,571 - NADJENO: 4 na liniji 21
+INFO  02:35:49,571 - DesignList 	visited na liniji 21
+INFO  02:35:49,571 - NumCons		visited na liniji 21
+INFO  02:35:49,571 - SingleFactor 	visited na liniji 21
+INFO  02:35:49,571 - Term 		visited na liniji 21
+INFO  02:35:49,571 - SingleTerm 	visited na liniji 21
+INFO  02:35:49,571 - Express	 	visited na liniji 21
+INFO  02:35:49,571 - Assign 		visited na liniji 21
+INFO  02:35:49,572 - DesignatorS 	visiter na liniji 21
+INFO  02:35:49,572 - ADRESA POLJA: niz na liniji 22
+INFO  02:35:49,572 - LastField		visited na liniji 22
+INFO  02:35:49,572 - ADRESA POLJA: t1 na liniji 22
+INFO  02:35:49,572 - FieldAcceDes 	visited na liniji 22
+INFO  02:35:49,572 - NADJENO: 4 na liniji 22
+INFO  02:35:49,573 - DesignList 	visited na liniji 22
+INFO  02:35:49,573 - Type		visited na liniji 22
+INFO  02:35:49,573 - NumCons		visited na liniji 22
+INFO  02:35:49,573 - SingleFactor 	visited na liniji 22
+INFO  02:35:49,573 - Term 		visited na liniji 22
+INFO  02:35:49,573 - SingleTerm 	visited na liniji 22
+INFO  02:35:49,573 - Express	 	visited na liniji 22
+INFO  02:35:49,573 - Constr		visited na liniji 22
+INFO  02:35:49,573 - SingleFactor 	visited na liniji 22
+INFO  02:35:49,573 - Term 		visited na liniji 22
+INFO  02:35:49,573 - SingleTerm 	visited na liniji 22
+INFO  02:35:49,573 - Express	 	visited na liniji 22
+INFO  02:35:49,573 - Assign 		visited na liniji 22
+INFO  02:35:49,573 - DesignatorS 	visiter na liniji 22
+INFO  02:35:49,573 - NumCons		visited na liniji 23
+INFO  02:35:49,573 - SingleFactor 	visited na liniji 23
+INFO  02:35:49,574 - Term 		visited na liniji 23
+INFO  02:35:49,575 - SingleTerm 	visited na liniji 23
+INFO  02:35:49,575 - Express	 	visited na liniji 23
+INFO  02:35:49,575 - LastArrField 	visited na liniji 23
+INFO  02:35:49,575 - ADRESA POLJA: t1 na liniji 23
+INFO  02:35:49,575 - FieldAcceDes 	visited na liniji 23
+INFO  02:35:49,575 - NADJENO: 4 na liniji 23
+INFO  02:35:49,575 - DesignList 	visited na liniji 23
+INFO  02:35:49,575 - NumCons		visited na liniji 23
+INFO  02:35:49,575 - SingleFactor 	visited na liniji 23
+INFO  02:35:49,575 - Term 		visited na liniji 23
+INFO  02:35:49,575 - SingleTerm 	visited na liniji 23
+INFO  02:35:49,575 - Express	 	visited na liniji 23
+INFO  02:35:49,575 - Assign 		visited na liniji 23
+INFO  02:35:49,575 - DesignatorS 	visiter na liniji 23
+INFO  02:35:49,575 - NumCons		visited na liniji 24
+INFO  02:35:49,575 - SingleFactor 	visited na liniji 24
+INFO  02:35:49,575 - Term 		visited na liniji 24
+INFO  02:35:49,575 - SingleTerm 	visited na liniji 24
+INFO  02:35:49,575 - Express	 	visited na liniji 24
+INFO  02:35:49,575 - LastArrField 	visited na liniji 24
+INFO  02:35:49,575 - ADRESA POLJA: t1 na liniji 24
+INFO  02:35:49,576 - FieldAcceDes 	visited na liniji 24
+INFO  02:35:49,576 - NADJENO: 4 na liniji 24
+INFO  02:35:49,577 - DesignList 	visited na liniji 24
+INFO  02:35:49,577 - Objct		visited na liniji 24
+INFO  02:35:49,577 - SingleFactor 	visited na liniji 24
+INFO  02:35:49,577 - Term 		visited na liniji 24
+INFO  02:35:49,577 - SingleTerm 	visited na liniji 24
+INFO  02:35:49,577 - Express	 	visited na liniji 24
+INFO  02:35:49,577 - PrintNoNum 	visited na liniji 24
+INFO  02:35:49,577 - MethodDecl 	visited na liniji 18
+INFO  02:35:49,577 - Program 		visited na liniji 3
+INFO  02:35:49,586 - Parsiranje USPESNO! :)

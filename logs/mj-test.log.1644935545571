@@ -1,0 +1,202 @@
+INFO  15:31:53,759 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:31:53,892 - #2 program
+INFO  15:31:53,893 - #49 test301
+INFO  15:31:53,893 - #3 const
+INFO  15:31:53,896 - #49 int
+INFO  15:31:53,896 - #49 nula
+INFO  15:31:53,897 - #28 =
+INFO  15:31:53,897 - #47 0
+INFO  15:31:53,897 - #5 ;
+INFO  15:31:53,901 - #3 const
+INFO  15:31:53,902 - #49 int
+INFO  15:31:53,902 - #49 jedan
+INFO  15:31:53,902 - #28 =
+INFO  15:31:53,902 - #47 1
+INFO  15:31:53,903 - #5 ;
+INFO  15:31:53,903 - #3 const
+INFO  15:31:53,903 - #49 int
+INFO  15:31:53,903 - #49 pet
+INFO  15:31:53,903 - #28 =
+INFO  15:31:53,904 - #47 5
+INFO  15:31:53,904 - #5 ;
+INFO  15:31:53,904 - #49 int
+INFO  15:31:53,904 - #49 niz
+INFO  15:31:53,905 - #24 [
+INFO  15:31:53,906 - #25 ]
+INFO  15:31:53,907 - #5 ;
+INFO  15:31:53,908 - #49 char
+INFO  15:31:53,909 - #49 nizch
+INFO  15:31:53,909 - #24 [
+INFO  15:31:53,909 - #25 ]
+INFO  15:31:53,909 - #5 ;
+INFO  15:31:53,909 - #22 {
+INFO  15:31:53,909 - #14 void
+INFO  15:31:53,911 - #49 main
+INFO  15:31:53,912 - #26 (
+INFO  15:31:53,913 - #27 )
+INFO  15:31:53,914 - #22 {
+INFO  15:31:53,916 - #17 print
+INFO  15:31:53,917 - #26 (
+INFO  15:31:53,917 - #48 true
+INFO  15:31:53,917 - #27 )
+INFO  15:31:53,921 - #5 ;
+INFO  15:31:53,921 - #23 }
+INFO  15:31:53,922 - #23 }
+INFO  15:31:53,928 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        DeclrLst(
+          DeclrLst(
+            NoDeclarationLst(
+            ) [NoDeclarationLst]
+            ConstDeclL(
+              ConstDeclLn(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 nula
+                  NumberVal(
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [NumberVal]
+                ) [ConstDecl]
+                NoConstDeclLst(
+                ) [NoConstDeclLst]
+              ) [ConstDeclLn]
+            ) [ConstDeclL]
+          ) [DeclrLst]
+          ConstDeclL(
+            ConstDeclLn(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               jedan
+                NumberVal(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [NumberVal]
+              ) [ConstDecl]
+              NoConstDeclLst(
+              ) [NoConstDeclLst]
+            ) [ConstDeclLn]
+          ) [ConstDeclL]
+        ) [DeclrLst]
+        ConstDeclL(
+          ConstDeclLn(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pet
+              NumberVal(
+                NumberConst(
+                 5
+                ) [NumberConst]
+              ) [NumberVal]
+            ) [ConstDecl]
+            NoConstDeclLst(
+            ) [NoConstDeclLst]
+          ) [ConstDeclLn]
+        ) [ConstDeclL]
+      ) [DeclrLst]
+      VarDeclL(
+        VarDeclLn(
+          Type(
+           int
+          ) [Type]
+          VarArr(
+            ArrName(
+             niz
+            ) [ArrName]
+          ) [VarArr]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [VarDeclL]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         char
+        ) [Type]
+        VarArr(
+          ArrName(
+           nizch
+          ) [ArrName]
+        ) [VarArr]
+        SingleVarDecl(
+        ) [SingleVarDecl]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarLine(
+      ) [NoVarLine]
+      StatementsBlock(
+        StatementLst(
+          NoStatement(
+          ) [NoStatement]
+          OneStatement(
+            MatchedStmt(
+              PrintNoNum(
+                Express(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        BoolCons(
+                          BoolConst(
+                           true
+                          ) [BoolConst]
+                        ) [BoolCons]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Express]
+              ) [PrintNoNum]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  15:31:53,929 - ===================================
+INFO  15:31:53,950 - ProgramName 	visited na liniji 3
+INFO  15:31:53,950 - Type		visited na liniji 5
+INFO  15:31:53,950 - Const 		visited na liniji 5
+INFO  15:31:53,952 - Type		visited na liniji 6
+INFO  15:31:53,952 - Const 		visited na liniji 6
+INFO  15:31:53,952 - Type		visited na liniji 7
+INFO  15:31:53,952 - Const 		visited na liniji 7
+INFO  15:31:53,953 - Type		visited na liniji 9
+INFO  15:31:53,953 - VarArr		visited na liniji 9
+INFO  15:31:53,953 - Type		visited na liniji 10
+INFO  15:31:53,953 - VarArr		visited na liniji 10
+INFO  15:31:53,953 - MethodBegin 	visited na liniji 13
+INFO  15:31:53,953 - BoolCons		visited na liniji 16
+INFO  15:31:53,953 - SingleFactor 	visited na liniji 16
+INFO  15:31:53,953 - Term 		visited na liniji 16
+INFO  15:31:53,954 - SingleTerm 	visited na liniji 16
+INFO  15:31:53,954 - Express	 	visited na liniji 16
+INFO  15:31:53,954 - PrintNoNum 	visited na liniji 16
+INFO  15:31:53,954 - MethodDecl 	visited na liniji 13
+INFO  15:31:53,954 - Program 		visited na liniji 3
+INFO  15:31:53,961 - Parsiranje USPESNO! :)

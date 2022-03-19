@@ -1,0 +1,591 @@
+INFO  21:58:36,256 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  21:58:36,404 - #2 program
+INFO  21:58:36,404 - #50 test301
+INFO  21:58:36,405 - #3 const
+INFO  21:58:36,407 - #50 int
+INFO  21:58:36,407 - #50 nula
+INFO  21:58:36,409 - #29 =
+INFO  21:58:36,410 - #48 0
+INFO  21:58:36,410 - #5 ;
+INFO  21:58:36,414 - #3 const
+INFO  21:58:36,415 - #50 int
+INFO  21:58:36,415 - #50 jedan
+INFO  21:58:36,416 - #29 =
+INFO  21:58:36,416 - #48 1
+INFO  21:58:36,416 - #5 ;
+INFO  21:58:36,416 - #3 const
+INFO  21:58:36,417 - #50 int
+INFO  21:58:36,417 - #50 pet
+INFO  21:58:36,417 - #29 =
+INFO  21:58:36,417 - #48 5
+INFO  21:58:36,417 - #5 ;
+INFO  21:58:36,418 - #50 int
+INFO  21:58:36,418 - #50 niz
+INFO  21:58:36,418 - #25 [
+INFO  21:58:36,420 - #26 ]
+INFO  21:58:36,420 - #5 ;
+INFO  21:58:36,422 - #50 char
+INFO  21:58:36,422 - #50 nizch
+INFO  21:58:36,422 - #25 [
+INFO  21:58:36,422 - #26 ]
+INFO  21:58:36,423 - #5 ;
+INFO  21:58:36,423 - #23 {
+INFO  21:58:36,423 - #14 void
+INFO  21:58:36,424 - #50 main
+INFO  21:58:36,426 - #27 (
+INFO  21:58:36,427 - #28 )
+INFO  21:58:36,429 - #50 int
+INFO  21:58:36,430 - #50 bodovi
+INFO  21:58:36,430 - #5 ;
+INFO  21:58:36,431 - #50 bool
+INFO  21:58:36,432 - #50 bt
+INFO  21:58:36,432 - #5 ;
+INFO  21:58:36,432 - #23 {
+INFO  21:58:36,432 - #50 bodovi
+INFO  21:58:36,434 - #29 =
+INFO  21:58:36,436 - #48 0
+INFO  21:58:36,439 - #5 ;
+INFO  21:58:36,441 - #50 bodovi
+INFO  21:58:36,442 - #44 ++
+INFO  21:58:36,442 - #5 ;
+INFO  21:58:36,442 - #50 bodovi
+INFO  21:58:36,442 - #29 =
+INFO  21:58:36,442 - #50 bodovi
+INFO  21:58:36,442 - #38 +
+INFO  21:58:36,443 - #50 jedan
+INFO  21:58:36,445 - #5 ;
+INFO  21:58:36,446 - #50 bodovi
+INFO  21:58:36,446 - #29 =
+INFO  21:58:36,446 - #50 bodovi
+INFO  21:58:36,446 - #40 *
+INFO  21:58:36,446 - #50 pet
+INFO  21:58:36,449 - #5 ;
+INFO  21:58:36,449 - #50 bodovi
+INFO  21:58:36,450 - #45 --
+INFO  21:58:36,450 - #5 ;
+INFO  21:58:36,450 - #17 print
+INFO  21:58:36,450 - #27 (
+INFO  21:58:36,450 - #50 bodovi
+INFO  21:58:36,451 - #28 )
+INFO  21:58:36,451 - #5 ;
+INFO  21:58:36,451 - #50 niz
+INFO  21:58:36,451 - #29 =
+INFO  21:58:36,451 - #6 new
+INFO  21:58:36,452 - #50 int
+INFO  21:58:36,452 - #25 [
+INFO  21:58:36,452 - #48 3
+INFO  21:58:36,452 - #26 ]
+INFO  21:58:36,452 - #5 ;
+INFO  21:58:36,453 - #50 niz
+INFO  21:58:36,453 - #25 [
+INFO  21:58:36,453 - #50 nula
+INFO  21:58:36,453 - #26 ]
+INFO  21:58:36,453 - #29 =
+INFO  21:58:36,454 - #50 jedan
+INFO  21:58:36,454 - #5 ;
+INFO  21:58:36,454 - #24 }
+INFO  21:58:36,454 - #24 }
+INFO  21:58:36,462 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        DeclrLst(
+          DeclrLst(
+            NoDeclarationLst(
+            ) [NoDeclarationLst]
+            ConstDeclL(
+              ConstDeclLn(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 nula
+                  NumberVal(
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [NumberVal]
+                ) [ConstDecl]
+                NoConstDeclLst(
+                ) [NoConstDeclLst]
+              ) [ConstDeclLn]
+            ) [ConstDeclL]
+          ) [DeclrLst]
+          ConstDeclL(
+            ConstDeclLn(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               jedan
+                NumberVal(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [NumberVal]
+              ) [ConstDecl]
+              NoConstDeclLst(
+              ) [NoConstDeclLst]
+            ) [ConstDeclLn]
+          ) [ConstDeclL]
+        ) [DeclrLst]
+        ConstDeclL(
+          ConstDeclLn(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pet
+              NumberVal(
+                NumberConst(
+                 5
+                ) [NumberConst]
+              ) [NumberVal]
+            ) [ConstDecl]
+            NoConstDeclLst(
+            ) [NoConstDeclLst]
+          ) [ConstDeclLn]
+        ) [ConstDeclL]
+      ) [DeclrLst]
+      VarDeclL(
+        VarDeclLn(
+          Type(
+           int
+          ) [Type]
+          VarArr(
+            ArrName(
+             niz
+            ) [ArrName]
+          ) [VarArr]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [VarDeclL]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         char
+        ) [Type]
+        VarArr(
+          ArrName(
+           nizch
+          ) [ArrName]
+        ) [VarArr]
+        SingleVarDecl(
+        ) [SingleVarDecl]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      MultipleVars(
+        MultipleVars(
+          NoVarLine(
+          ) [NoVarLine]
+          VarDeclLn(
+            Type(
+             int
+            ) [Type]
+            VarNam(
+              VarName(
+               bodovi
+              ) [VarName]
+            ) [VarNam]
+            SingleVarDecl(
+            ) [SingleVarDecl]
+          ) [VarDeclLn]
+        ) [MultipleVars]
+        VarDeclLn(
+          Type(
+           bool
+          ) [Type]
+          VarNam(
+            VarName(
+             bt
+            ) [VarName]
+          ) [VarNam]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [MultipleVars]
+      StatementsBlock(
+        StatementLst(
+          StatementLst(
+            StatementLst(
+              StatementLst(
+                StatementLst(
+                  StatementLst(
+                    StatementLst(
+                      StatementLst(
+                        NoStatement(
+                        ) [NoStatement]
+                        OneStatement(
+                          MatchedStmt(
+                            DesignStmt(
+                              Assign(
+                                SingleDesignator(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [SingleDesignator]
+                                AssignopDerived1(
+                                ) [AssignopDerived1]
+                                Express(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        NumCons(
+                                          NumberConst(
+                                           0
+                                          ) [NumberConst]
+                                        ) [NumCons]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Express]
+                              ) [Assign]
+                            ) [DesignStmt]
+                          ) [MatchedStmt]
+                        ) [OneStatement]
+                      ) [StatementLst]
+                      OneStatement(
+                        MatchedStmt(
+                          DesignStmt(
+                            Increment(
+                              SingleDesignator(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [SingleDesignator]
+                            ) [Increment]
+                          ) [DesignStmt]
+                        ) [MatchedStmt]
+                      ) [OneStatement]
+                    ) [StatementLst]
+                    OneStatement(
+                      MatchedStmt(
+                        DesignStmt(
+                          Assign(
+                            SingleDesignator(
+                              DesignatorName(
+                               bodovi
+                              ) [DesignatorName]
+                            ) [SingleDesignator]
+                            AssignopDerived1(
+                            ) [AssignopDerived1]
+                            Express(
+                              TermLst(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      Objct(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           bodovi
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                      ) [Objct]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                                Plus(
+                                ) [Plus]
+                                Term(
+                                  SingleFactor(
+                                    Objct(
+                                      SingleDesignator(
+                                        DesignatorName(
+                                         jedan
+                                        ) [DesignatorName]
+                                      ) [SingleDesignator]
+                                    ) [Objct]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [TermLst]
+                            ) [Express]
+                          ) [Assign]
+                        ) [DesignStmt]
+                      ) [MatchedStmt]
+                    ) [OneStatement]
+                  ) [StatementLst]
+                  OneStatement(
+                    MatchedStmt(
+                      DesignStmt(
+                        Assign(
+                          SingleDesignator(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [SingleDesignator]
+                          AssignopDerived1(
+                          ) [AssignopDerived1]
+                          Express(
+                            SingleTerm(
+                              Term(
+                                FactorLst(
+                                  SingleFactor(
+                                    Objct(
+                                      SingleDesignator(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [SingleDesignator]
+                                    ) [Objct]
+                                  ) [SingleFactor]
+                                  Mul(
+                                  ) [Mul]
+                                  Objct(
+                                    SingleDesignator(
+                                      DesignatorName(
+                                       pet
+                                      ) [DesignatorName]
+                                    ) [SingleDesignator]
+                                  ) [Objct]
+                                ) [FactorLst]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Express]
+                        ) [Assign]
+                      ) [DesignStmt]
+                    ) [MatchedStmt]
+                  ) [OneStatement]
+                ) [StatementLst]
+                OneStatement(
+                  MatchedStmt(
+                    DesignStmt(
+                      Decrement(
+                        SingleDesignator(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [SingleDesignator]
+                      ) [Decrement]
+                    ) [DesignStmt]
+                  ) [MatchedStmt]
+                ) [OneStatement]
+              ) [StatementLst]
+              OneStatement(
+                MatchedStmt(
+                  PrintNoNum(
+                    Express(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            Objct(
+                              SingleDesignator(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [SingleDesignator]
+                            ) [Objct]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Express]
+                  ) [PrintNoNum]
+                ) [MatchedStmt]
+              ) [OneStatement]
+            ) [StatementLst]
+            OneStatement(
+              MatchedStmt(
+                DesignStmt(
+                  Assign(
+                    SingleDesignator(
+                      DesignatorName(
+                       niz
+                      ) [DesignatorName]
+                    ) [SingleDesignator]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    Express(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            ConstrArr(
+                              Type(
+                               int
+                              ) [Type]
+                              Express(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      NumCons(
+                                        NumberConst(
+                                         3
+                                        ) [NumberConst]
+                                      ) [NumCons]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Express]
+                            ) [ConstrArr]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Express]
+                  ) [Assign]
+                ) [DesignStmt]
+              ) [MatchedStmt]
+            ) [OneStatement]
+          ) [StatementLst]
+          OneStatement(
+            MatchedStmt(
+              DesignStmt(
+                Assign(
+                  ArrayDesignator(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    Express(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            Objct(
+                              SingleDesignator(
+                                DesignatorName(
+                                 nula
+                                ) [DesignatorName]
+                              ) [SingleDesignator]
+                            ) [Objct]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Express]
+                  ) [ArrayDesignator]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  Express(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          Objct(
+                            SingleDesignator(
+                              DesignatorName(
+                               jedan
+                              ) [DesignatorName]
+                            ) [SingleDesignator]
+                          ) [Objct]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Express]
+                ) [Assign]
+              ) [DesignStmt]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  21:58:36,464 - ===================================
+INFO  21:58:36,485 - ProgramName 	visited na liniji 3
+INFO  21:58:36,485 - Type		visited na liniji 5
+INFO  21:58:36,486 - Const 		visited na liniji 5
+INFO  21:58:36,486 - Type		visited na liniji 6
+INFO  21:58:36,486 - Const 		visited na liniji 6
+INFO  21:58:36,486 - Type		visited na liniji 7
+INFO  21:58:36,486 - Const 		visited na liniji 7
+INFO  21:58:36,486 - Type		visited na liniji 9
+INFO  21:58:36,486 - VarArr		visited na liniji 9
+INFO  21:58:36,487 - Type		visited na liniji 10
+INFO  21:58:36,487 - VarArr		visited na liniji 10
+INFO  21:58:36,487 - MethodBegin 	visited na liniji 13
+INFO  21:58:36,487 - Type		visited na liniji 14
+INFO  21:58:36,488 - VarName		visited na liniji 14
+INFO  21:58:36,488 - Type		visited na liniji 15
+INFO  21:58:36,488 - VarName		visited na liniji 15
+INFO  21:58:36,488 - SingleDesignator 	visited na liniji 17
+INFO  21:58:36,488 - NumCons		visited na liniji 17
+INFO  21:58:36,489 - SingleFactor 	visited na liniji 17
+INFO  21:58:36,489 - Term 		visited na liniji 17
+INFO  21:58:36,489 - SingleTerm 	visited na liniji 17
+INFO  21:58:36,489 - Express	 	visited na liniji 17
+INFO  21:58:36,489 - Assign 		visited na liniji 17
+INFO  21:58:36,489 - DesignatorS 	visiter na liniji 17
+INFO  21:58:36,490 - SingleDesignator 	visited na liniji 18
+INFO  21:58:36,490 - Increment 		visited na liniji 18
+INFO  21:58:36,490 - DesignatorS 	visiter na liniji 18
+INFO  21:58:36,490 - SingleDesignator 	visited na liniji 19
+INFO  21:58:36,490 - SingleDesignator 	visited na liniji 19
+INFO  21:58:36,490 - Objct		visited na liniji 19
+INFO  21:58:36,490 - SingleFactor 	visited na liniji 19
+INFO  21:58:36,490 - Term 		visited na liniji 19
+INFO  21:58:36,490 - SingleTerm 	visited na liniji 19
+INFO  21:58:36,490 - SingleDesignator 	visited na liniji 19
+INFO  21:58:36,492 - Objct		visited na liniji 19
+INFO  21:58:36,492 - SingleFactor 	visited na liniji 19
+INFO  21:58:36,492 - Term 		visited na liniji 19
+INFO  21:58:36,492 - TermLst 		visited na liniji 19
+INFO  21:58:36,492 - Express	 	visited na liniji 19
+INFO  21:58:36,493 - Assign 		visited na liniji 19
+INFO  21:58:36,493 - DesignatorS 	visiter na liniji 19
+INFO  21:58:36,493 - SingleDesignator 	visited na liniji 20
+INFO  21:58:36,493 - SingleDesignator 	visited na liniji 20
+INFO  21:58:36,493 - Objct		visited na liniji 20
+INFO  21:58:36,493 - SingleFactor 	visited na liniji 20
+INFO  21:58:36,494 - SingleDesignator 	visited na liniji 20
+INFO  21:58:36,494 - Objct		visited na liniji 20
+INFO  21:58:36,494 - FactorList 	visited na liniji 20
+INFO  21:58:36,494 - Term 		visited na liniji 20
+INFO  21:58:36,494 - SingleTerm 	visited na liniji 20
+INFO  21:58:36,494 - Express	 	visited na liniji 20
+INFO  21:58:36,494 - Assign 		visited na liniji 20
+INFO  21:58:36,494 - DesignatorS 	visiter na liniji 20
+INFO  21:58:36,494 - SingleDesignator 	visited na liniji 21
+INFO  21:58:36,494 - Decrement 		visited na liniji 21
+INFO  21:58:36,494 - DesignatorS 	visiter na liniji 21
+INFO  21:58:36,494 - SingleDesignator 	visited na liniji 22
+INFO  21:58:36,494 - Objct		visited na liniji 22
+INFO  21:58:36,495 - SingleFactor 	visited na liniji 22
+INFO  21:58:36,495 - Term 		visited na liniji 22
+INFO  21:58:36,495 - SingleTerm 	visited na liniji 22
+INFO  21:58:36,495 - Express	 	visited na liniji 22
+INFO  21:58:36,495 - PrintNoNum 	visited na liniji 22
+INFO  21:58:36,495 - SingleDesignator 	visited na liniji 25
+INFO  21:58:36,495 - Type		visited na liniji 25
+INFO  21:58:36,495 - NumCons		visited na liniji 25
+INFO  21:58:36,495 - SingleFactor 	visited na liniji 25
+INFO  21:58:36,495 - Term 		visited na liniji 25
+INFO  21:58:36,495 - SingleTerm 	visited na liniji 25
+INFO  21:58:36,495 - Express	 	visited na liniji 25
+ERROR 21:58:36,495 - GRESKA: Nije moguce pozvati konstruktor za tip koji nije unutrasnja klasa, greska na liniji 25
+INFO  21:58:36,495 - Constr		visited na liniji 25
+INFO  21:58:36,495 - SingleFactor 	visited na liniji 25
+INFO  21:58:36,497 - Term 		visited na liniji 25
+INFO  21:58:36,497 - SingleTerm 	visited na liniji 25
+INFO  21:58:36,497 - Express	 	visited na liniji 25
+ERROR 21:58:36,497 - GRESKA: Promenljiva i izraz nisu kompatibilnog tipa, greska na liniji 25
+INFO  21:58:36,497 - Assign 		visited na liniji 25
+INFO  21:58:36,497 - DesignatorS 	visiter na liniji 25
+INFO  21:58:36,497 - SingleDesignator 	visited na liniji 26
+INFO  21:58:36,497 - Objct		visited na liniji 26
+INFO  21:58:36,497 - SingleFactor 	visited na liniji 26
+INFO  21:58:36,497 - Term 		visited na liniji 26
+INFO  21:58:36,497 - SingleTerm 	visited na liniji 26
+INFO  21:58:36,497 - Express	 	visited na liniji 26
+INFO  21:58:36,499 - ArrayDesignator 	visited na liniji 26
+INFO  21:58:36,499 - SingleDesignator 	visited na liniji 26
+INFO  21:58:36,499 - Objct		visited na liniji 26
+INFO  21:58:36,499 - SingleFactor 	visited na liniji 26
+INFO  21:58:36,499 - Term 		visited na liniji 26
+INFO  21:58:36,499 - SingleTerm 	visited na liniji 26
+INFO  21:58:36,499 - Express	 	visited na liniji 26
+ERROR 21:58:36,499 - GRESKA: Promenljiva i izraz nisu kompatibilnog tipa, greska na liniji 26
+INFO  21:58:36,499 - Assign 		visited na liniji 26
+INFO  21:58:36,499 - DesignatorS 	visiter na liniji 26
+INFO  21:58:36,500 - MethodDecl 	visited na liniji 13
+INFO  21:58:36,500 - Program 		visited na liniji 3

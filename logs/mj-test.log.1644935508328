@@ -1,0 +1,202 @@
+INFO  15:30:48,708 - Compiling source file: C:\Users\PC\pp1Domaci\workspace\MJCompiler\test\program.mj
+INFO  15:30:48,844 - #2 program
+INFO  15:30:48,844 - #49 test301
+INFO  15:30:48,844 - #3 const
+INFO  15:30:48,847 - #49 int
+INFO  15:30:48,847 - #49 nula
+INFO  15:30:48,849 - #28 =
+INFO  15:30:48,850 - #47 0
+INFO  15:30:48,850 - #5 ;
+INFO  15:30:48,854 - #3 const
+INFO  15:30:48,855 - #49 int
+INFO  15:30:48,855 - #49 jedan
+INFO  15:30:48,855 - #28 =
+INFO  15:30:48,855 - #47 1
+INFO  15:30:48,856 - #5 ;
+INFO  15:30:48,856 - #3 const
+INFO  15:30:48,856 - #49 int
+INFO  15:30:48,856 - #49 pet
+INFO  15:30:48,856 - #28 =
+INFO  15:30:48,857 - #47 5
+INFO  15:30:48,857 - #5 ;
+INFO  15:30:48,857 - #49 int
+INFO  15:30:48,857 - #49 niz
+INFO  15:30:48,858 - #24 [
+INFO  15:30:48,859 - #25 ]
+INFO  15:30:48,860 - #5 ;
+INFO  15:30:48,861 - #49 char
+INFO  15:30:48,861 - #49 nizch
+INFO  15:30:48,861 - #24 [
+INFO  15:30:48,862 - #25 ]
+INFO  15:30:48,862 - #5 ;
+INFO  15:30:48,862 - #22 {
+INFO  15:30:48,862 - #14 void
+INFO  15:30:48,863 - #49 main
+INFO  15:30:48,865 - #26 (
+INFO  15:30:48,866 - #27 )
+INFO  15:30:48,868 - #22 {
+INFO  15:30:48,869 - #17 print
+INFO  15:30:48,871 - #26 (
+INFO  15:30:48,871 - #47 0
+INFO  15:30:48,871 - #27 )
+INFO  15:30:48,873 - #5 ;
+INFO  15:30:48,874 - #23 }
+INFO  15:30:48,874 - #23 }
+INFO  15:30:48,878 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclrLst(
+    DeclrLst(
+      DeclrLst(
+        DeclrLst(
+          DeclrLst(
+            NoDeclarationLst(
+            ) [NoDeclarationLst]
+            ConstDeclL(
+              ConstDeclLn(
+                Type(
+                 int
+                ) [Type]
+                ConstDecl(
+                 nula
+                  NumberVal(
+                    NumberConst(
+                     0
+                    ) [NumberConst]
+                  ) [NumberVal]
+                ) [ConstDecl]
+                NoConstDeclLst(
+                ) [NoConstDeclLst]
+              ) [ConstDeclLn]
+            ) [ConstDeclL]
+          ) [DeclrLst]
+          ConstDeclL(
+            ConstDeclLn(
+              Type(
+               int
+              ) [Type]
+              ConstDecl(
+               jedan
+                NumberVal(
+                  NumberConst(
+                   1
+                  ) [NumberConst]
+                ) [NumberVal]
+              ) [ConstDecl]
+              NoConstDeclLst(
+              ) [NoConstDeclLst]
+            ) [ConstDeclLn]
+          ) [ConstDeclL]
+        ) [DeclrLst]
+        ConstDeclL(
+          ConstDeclLn(
+            Type(
+             int
+            ) [Type]
+            ConstDecl(
+             pet
+              NumberVal(
+                NumberConst(
+                 5
+                ) [NumberConst]
+              ) [NumberVal]
+            ) [ConstDecl]
+            NoConstDeclLst(
+            ) [NoConstDeclLst]
+          ) [ConstDeclLn]
+        ) [ConstDeclL]
+      ) [DeclrLst]
+      VarDeclL(
+        VarDeclLn(
+          Type(
+           int
+          ) [Type]
+          VarArr(
+            ArrName(
+             niz
+            ) [ArrName]
+          ) [VarArr]
+          SingleVarDecl(
+          ) [SingleVarDecl]
+        ) [VarDeclLn]
+      ) [VarDeclL]
+    ) [DeclrLst]
+    VarDeclL(
+      VarDeclLn(
+        Type(
+         char
+        ) [Type]
+        VarArr(
+          ArrName(
+           nizch
+          ) [ArrName]
+        ) [VarArr]
+        SingleVarDecl(
+        ) [SingleVarDecl]
+      ) [VarDeclLn]
+    ) [VarDeclL]
+  ) [DeclrLst]
+  MethodDeclLst(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodBegin(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodBegin]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarLine(
+      ) [NoVarLine]
+      StatementsBlock(
+        StatementLst(
+          NoStatement(
+          ) [NoStatement]
+          OneStatement(
+            MatchedStmt(
+              PrintNoNum(
+                Express(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        NumCons(
+                          NumberConst(
+                           0
+                          ) [NumberConst]
+                        ) [NumCons]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Express]
+              ) [PrintNoNum]
+            ) [MatchedStmt]
+          ) [OneStatement]
+        ) [StatementLst]
+      ) [StatementsBlock]
+    ) [MethodDecl]
+  ) [MethodDeclLst]
+) [Program]
+INFO  15:30:48,879 - ===================================
+INFO  15:30:48,897 - ProgramName 	visited na liniji 3
+INFO  15:30:48,898 - Type		visited na liniji 5
+INFO  15:30:48,898 - Const 		visited na liniji 5
+INFO  15:30:48,898 - Type		visited na liniji 6
+INFO  15:30:48,898 - Const 		visited na liniji 6
+INFO  15:30:48,899 - Type		visited na liniji 7
+INFO  15:30:48,899 - Const 		visited na liniji 7
+INFO  15:30:48,899 - Type		visited na liniji 9
+INFO  15:30:48,899 - VarArr		visited na liniji 9
+INFO  15:30:48,899 - Type		visited na liniji 10
+INFO  15:30:48,899 - VarArr		visited na liniji 10
+INFO  15:30:48,900 - MethodBegin 	visited na liniji 13
+INFO  15:30:48,900 - NumCons		visited na liniji 16
+INFO  15:30:48,901 - SingleFactor 	visited na liniji 16
+INFO  15:30:48,901 - Term 		visited na liniji 16
+INFO  15:30:48,901 - SingleTerm 	visited na liniji 16
+INFO  15:30:48,901 - Express	 	visited na liniji 16
+INFO  15:30:48,902 - PrintNoNum 	visited na liniji 16
+INFO  15:30:48,902 - MethodDecl 	visited na liniji 13
+INFO  15:30:48,902 - Program 		visited na liniji 3
+INFO  15:30:48,912 - Parsiranje USPESNO! :)
